@@ -11,7 +11,6 @@ format:
     logo: logo.png
   pptx: default
   docx: default
-bibliography: valencia.bib
 nocite: |
   @*
 ---
