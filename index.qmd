@@ -15,244 +15,635 @@ nocite: |
   @*
 ---
 
+# Introduction
+
+## À propos de moi
+
+## Objectifs de la présentation
+
+## Qu'est-ce que la migration?
+
+## Cause -\> Migration -\> Conséquence
+
+## Plan
+
+# Début du 20ème siècle et ses impacts sur l'histoire migratoire {data-background="#f5f5dc"}
+
+## Contexte historique {data-background="#f5f5dc"}
+
+Fin du 19ème siècle au début du 20ème siècle
+
+-   Industrialisation et révolution technologique
+-   Émergence de nationalismes et impérialismes
+-   Croissance démographique
+-   Émigration vers l'Amérique
+-   Expansion Coloniale Européenne
+-   Émergence des Enclaves Ethniques
+-   Régimes Politiques et Migration
+
+## Révolution Industrielle et Urbanisation
+
+La révolution industrielle entraîne une urbanisation massive
+
+-   Transformation économique due à la révolution industrielle.
+
+-   Migration vers les zones industrielles (ex : Manchester, Londres, Berlin, Paris).
+
+...Illustrations de villes industrielles au début du XXe siècle.
+
+...montrant l'étendue des zones urbaines en Europe.
+
+## Nationalisme et Tensions Internationales
+
+Émergence de nationalismes et tensions entre nations
+
+-   Montée des nationalités et rivalités entre grandes puissances.
+
+-   Système d'alliances pour contrer la menace française après 1870.
+
+...Graphique interactif représentant les alliances européennes avant la Première Guerre Mondiale.
+
+## Croissance Démographique
+
+Une Europe en pleine croissance démographique
+
+-   Forte augmentation de la population européenne à la fin du XIXe siècle et au début du XXe.
+
+-   Amélioration des conditions sanitaires et taux de natalité élevés.
+
+## Émigration vers l'Amérique
+
+Massives migrations vers le Nouveau Monde
+
+-   Départ de millions d’Européens vers les États-Unis.
+
+-   Migration interne et européenne vers zones industrielles du sud.
+
+...Statistiques montrant le nombre de migrants par années.
+
+## Expansion Coloniale Européenne
+
+Impact de la colonisation sur la mobilité humaine
+
+-   Flux migratoires hors d’Europe pour les colonies.
+
+-   Faible impact entrant en Europe, prédominance des sorties européennes.
+
+...Carte des colonies
+
+## Émergence des Enclaves Ethniques
+
+-   Nationalismes conduisant à l'établissement d'enclaves.
+
+-   Tensions internes poussant certains groupes à chercher refuge ailleurs.
+
+## Régimes Politiques et Migration
+
+Impact des régimes politiques sur la migration
+
+-   Déportations par des régimes autoritaires.
+
+-   Echanges de membres entre syndicats internationaux.
+
+# Première Guerre Mondiale et entre deux guerres {data-background="#d3d3d3"}
+
+## Facteurs précurseurs de la Première Guerre Mondiale (P.G.M.)
+
+-   **Industrialisation et modernisation économique**:
+    -   Développement rapide des transports (chemin de fer, navires à vapeur)
+    -   Économie mondialisée favorisant les mouvements migratoires internationaux
+-   **Nationalismes croissants**:
+    -   Aspiration à l'autonomie nationale dans diverses régions
+    -   Exemples : nationalisme serbe, irlandais, polonais
+
+## Système diplomatique complexé
+
+-   Formation de blocs alliés (Triple Alliance, Triple Entente)
+-   Augmentation des tensions internationales
+
+## Événements précédant la P.G.M.
+
+-   Crise de Bosnie en 1908-1909:
+    -   Tensions croissantes entre l'Autriche-Hongrie, la Russie et les Balkans
+
+## Première Guerre Balkanique (1912-1913)
+
+-   Conflits régionaux (Turquie, Serbie, Bulgarie, Grèce, Monténégro)
+-   Déplacement forcé de populations civiles
+
+## Impact des événements sur les mouvements migratoires
+
+-   **Industrialisation et urbanisation**:
+    -   Attraction vers les zones urbaines et industrielles
+    -   Déplacements massifs dans certaines régions (Europe centrale)
+-   **Tensions nationalistes**:
+    -   Déplacement forcé de populations ethniques
+
+## Établissement d'empires coloniaux
+
+-   Flux migratoires entre métropoles et colonies
+
+## Industrialisation et révolution technologique (détails)
+
+-   Révolution industrielle dans l'Europe occidentale
+-   Travailleurs saisonniers entre pays d'Europe centrale et méridionale
+
+## Nationalismes croissants (exemples supplémentaires)
+
+-   Exemples : nationalisme serbe, irlandais, polonais, etc.
+
+## Système diplomatique complexé (détails)
+
+-   **Triple Alliance** : Allemagne, Autriche-Hongrie, Italie
+-   **Triple Entente** : Angleterre, France, Russie
+
+## Événements précédant la P.G.M. (détails)
+
+-   Assassinat de François-Ferdinand en 1914
+-   Déclenchement immédiat de la Première Guerre Mondiale
+
+## Entre deux guerres: Introduction
+
+**Titre:** Les flux migratoires entre les deux guerres mondiales (1918-1939)
+
+**Contenu:** La période entre les deux guerres a été marquée par des événements importants qui ont profondément impacté la migration mondiale.
+
+## Migrations post-Guerre mondiale I
+
+**Titre:** Migrations après la Première Guerre mondiale
+
+**Contenu:** \* Des millions de personnes se sont déplacées en Europe. \* Traumatisme et bouleversements post-guerre.
+
+## La montée du fascisme et du nazisme
+
+Persécution des minorités ethniques
+
+**Contenu:** \* Fascisme et nazisme ont forcé la fuite de nombreux groupes ethniques. \* Persecutions systématiques menant à l'exode.
+
+## Les réfugiés juifs
+
+**Titre:** Fuite des Juifs en Europe
+
+**Contenu:** \* L'antisémitisme croissant sous le régime nazi et dans d'autres pays. \* Essais de quitter les zones dangereuses pour échapper à la persécution.
+
+## Établissement des conventions internationales sur les réfugiés
+
+**Titre:** Protection internationale des réfugiés
+
+**Contenu:** \* Premières Conventions de Genève (1929 et 1938). \* Mise en place pour répondre aux besoins croissants des réfugiés.
+
+## Crise des réfugiés d'Europe centrale
+
+**Titre:** Crise majeure des réfugiés
+
+**Contenu:** \* Montée du nazisme et invasion de la Tchécoslovaquie. \* Remplacement du statu quo européen créant une crise majeure.
+
+## Impact sur les politiques migratoires mondiales
+
+**Titre:** Changements dans les politiques de migration
+
+**Contenu:** \* Ces événements ont profondément influencé la politique mondiale des migrations. \* Nouvelles conventions internationales pour la protection des réfugiés.
+
+## Décolonisation et Réorganisation Territoriale
+
+**Effondrement des grands empires européens** - L'Empire austro-hongrois et l'Empire russe ont disparu. - Guerres civiles et changements politiques qui ont déplacé de nombreux citoyens.
+
+## Vagues de Réfugiés en Bulgarie
+
+**Fuite des minorités ethniques** - Grecs et Turcs quittent la Bulgarie. - Bulgares fuient vers la Grèce et la Turquie.
+
+## Émigration Économique
+
+**Recherche de travail à l'étranger** - Polonais, Yougoslaves, Hongrois et Tchèques travaillent en Belgique. - France recrute massivement des ouvriers européens.
+
+## Régime Staline et Déportations
+
+**Accusations de trahison** - L'Union soviétique sous Staline effectue des déplacements forcés. - Nationalités accusées de trahison vers le Caucase et l'Asie centrale.
+
+## Guerre Civile Espagnole
+
+**Nouvelle vague de réfugiés** - Conflit (1936-1939) déclenche une nouvelle vague de réfugiés. - Principalement vers la France.
+
+## Impact sur les Populations Européennes
+
+**Réorganisation démographique** Ces événements ont profondément modifié les populations et les dynamiques démographiques dans toute l'Europe centrale et orientale.
+
+## Introduction à l'Entre-deux-Guerres (1918-1939)
+
+**Titre:** La migration au cours de l'entre-deux-guerres
+
+**Sous-titre:** De la Grande Guerre à la Seconde Guerre mondiale, des millions ont bougé d'un bout du monde à l'autre.
+
+## Émigration vers le Nord aux États-Unis
+
+**Titre:** La "Great Migration" Afro-Américaine
+
+-   **Millions de Noirs américains quittent le Sud pour le Nord et le Midwest**
+-   **Motivations : Emploi, conditions de vie améliorées**
+
+## Réfugiés Politiques en Europe
+
+**Titre:** Fuite des dissidents politiques
+
+-   **Italiens antifascistes sous Mussolini**
+-   **Républicains espagnols pendant la guerre civile (1936-1939)**
+
+## Réfugiés Juifs et Exil Intégral
+
+**Titre:** Fuite des persécutions antisémites
+
+-   **Europe centrale et orientale**
+-   **Migration vers les États-Unis, le Canada et la Palestine**
+
+## Exil Intellectuel en Amérique Latine
+
+**Titre:** Le mouvement de l'exil littéraire et culturel
+
+-   **Artistes et intellectuels fuyant le fascisme et le nazisme**
+-   **Migration vers l'Amérique latine, les États-Unis**
+
+## Migration Internationale vers les Grandes Villes Européennes
+
+**Titre:** Déplacement des travailleurs vers les villes industrielles
+
+-   **Berlin, Paris, Londres**
+-   **Secteur industrie manufacturière et commerce**
+
+## Répercussions Politiques sur la Migration en URSS (1920s-30s)
+
+**Titre:** Effets du régime stalinien
+
+-   **Déplacement forcé de populations**
+-   **Répression des opposants politiques**
+
+## Grande Dépression et Migrations Économiques Mondiales
+
+**Titre:** La crise économique mondiale (1929)
+
+-   **Baisse du niveau de vie dans plusieurs pays**
+-   **Mouvement des populations à la recherche d'opportunités économiques**
+
+## Guerres Locales et Déplacements
+
+**Titre:** Conflits déclenchant des mouvements massifs de population
+
+-   **Guerre civile espagnole (1936-1939)**
+-   **Conflits en Chine (1937-1945)**
+
+## Traités et Déplacements de Populations
+
+**Titre:** Conséquences des traités post-Guerre Mondiale I
+
+-   **Réorganisation territoriale européenne**
+-   **Déplacement forcé de populations allemandes, polonaises**
+
+### Répercussions Globales et Culturelles
+
+**Titre:** Impact culturel et politique du mouvement de population
+
+-   **Diffusion des idées et cultures**
+-   **Résistance contre les régimes totalitaires**
+
+# Seconde Guerre Mondiale et Période post-guerre et les migrations Massives (1939 – 1970) {data-background="#f0fff0"}
+
+## **Migrations Forcées pendant la Seconde Guerre Mondiale (1939-1945)**
+
+*La Seconde Guerre mondiale a engendré des déplacements massifs de populations dans le monde entier, principalement dus à l'occupation territoriale, les persécutions et la guerre civile.*
+
+*La Seconde Guerre mondiale a eu un impact dévastateur sur les mouvements de population. Ces migrations forcées ont non seulement causé des pertes de vie, mais elles ont aussi transformé la composition démographique dans plusieurs régions du monde.*
+
+## Déportations Juives (Holocauste)
+
+-   **Déportation massive** : Plus de 6 millions de juifs ont été déportés vers des camps d'extermination.
+-   **Concentration** : Les nazis ont rassemblé les juifs dans des ghettos et des camps avant leur transport.
+
+## Nettoyage Ethnique en Europe Centrale et Orientale
+
+-   **Régions touchées** : Pologne, Biélorussie, Ukraine, Russie.
+-   **Actions soviétiques et nazies** : Déportation de populations polonaises, tchèques, lituaniennes, etc.
+
+## Mouvements Massifs d'Européens
+
+-   **Évasion** : Des millions ont fui l'invasion allemande vers le sud et l'est.
+-   **Réfugiés** : Déplacés en Turquie, Moyen-Orient, Afrique du Nord.
+
+## La Guerre Civile Grecque (1946-1949)
+
+-   **Déplacements de populations** : Milices nationalistes et communistes.
+-   **Réfugiés** : Migration vers les îles grecques, Turquie, Égypte.
+
+## Les Réfugiés Espagnols (Post-Guerre Civile Espagnole)
+
+-   **Émigration massive** : Dès 1936.
+-   **Destinations** : Mexique, Chili, France, Cuba, Uruguay.
+
+## Déportations en Union Soviétique
+
+-   **Période** : Entre 1936 et 1952.
+-   **Nationalités touchées** : Allemands de Volga, Kalmouks, Tchétchènes, Ingouches.
+
+## Impact sur la Démographie Mondiale
+
+-   **Europe Centrale et Orientale** : Changements majeurs dans le paysage démographique.
+-   **Amérique Latine** : Population espagnole a augmenté significativement.
+
+## **Après-guerre introduction** 
+
+\- Titre : "Mouvements migratoires après la Seconde Guerre mondiale" - Sous-titre : "Entre 1945 et 1970, l'Europe a connu une série de grands mouvements migratoires qui ont façonné son économie et sa société."
+
+Titre : "Impact des mouvements migratoires en Europe (1945-1970)" - Texte : Ces grands mouvements de population ont façonné l'Europe que nous connaissons aujourd'hui. Ils ont profondément influencé son économie, sa société et ses relations internationales.
+
+## **Répatriations** 
+
+\- Titre : "Répatriation des Français" - Texte : Des millions de Français sont retournés en France après avoir vécu sous l'occupation allemande pendant la Seconde Guerre mondiale.
+
+-   Titre : "Retour des Italiens"
+-   Texte : De nombreux Italiens qui avaient travaillé dans d'autres pays européens sont rentrés chez eux.
+
+## **Déportations**
+
+Titre : "Déplacement forcé des Sudètes" - Texte : Des dizaines de milliers de Tchèques d'origine allemande ont été forcément déplacés hors du territoire qui est maintenant la République tchèque.
+
+## **Volontaires et travailleurs**
+
+Titre : "Travailleurs étrangers en Allemagne" - Texte : Des millions d'Européens sont venus travailler en Allemagne pour aider à sa reconstruction après la guerre.
+
+-   Sous-titre : "Diversité des origines"
+-   Texte : Par exemple, beaucoup d'Italiens et d'Espagnols ont migré vers l’Angleterre à la recherche de travail.
+
+## **Partition européenne**
+
+Titre : "Crise des réfugiés en Allemagne" - Texte : La division de l'Allemagne a forcé beaucoup de gens à quitter leurs maisons et à chercher refuge ailleurs.
+
+-   Sous-titre : "Partition et déplacement"
+-   Texte : La création du bloc soviétique a également conduit au transfert de populations entre les nouveaux États baltes et les Balkans nouvellement dessinés.
+
+## **Miracle économique allemand**
+
+Titre : "Migration vers l'Allemagne" - Texte : Le miracle économique allemand a attiré des travailleurs étrangers, dont de nombreux Italiens, Espagnols et Turcs.
+
+-   Sous-titre : "Impact sur la société"
+-   Texte : Cette immigration a profondément influencé l'économie et la société allemandes.
+
+## **Yougoslavie**
+
+Titre : "Mouvements de population en Yougoslavie" - Texte : Des mouvements massifs de populations ont eu lieu dans les Balkans nouvellement dessinés en raison du transfert des différentes nationalités.
+
+-   Sous-titre : "Consequences sociétales"
+-   Texte : Ces déplacements ont souvent conduit à des tensions et conflits ethniques.
+
+## **Europe du Sud**
+
+Titre : "Migration vers l'Europe occidentale" - Texte : Beaucoup d'Espagnols, Italiens et Grecs sont partis vers l’Europe occidentale pour trouver un emploi.
+
+-   Sous-titre : "Évolution de la société européenne"
+-   Texte : Ces mouvements ont contribué à la diversité culturelle et linguistique en Europe.
+
+## **Indochine française**
+
+Titre : "Immigration vietnamienne vers la France" - Texte : Des centaines de milliers de Vietnamiens sont partis pour la France après l'indépendance.
+
+-   Sous-titre : "Impact culturel et social"
+-   Texte : Cette immigration a profondément influencé la société française.
+
+D'accord, voici les slides Reveal.js en se concentrant spécifiquement sur la période de 1945-1970 pendant et après la Seconde Guerre mondiale :
+
 ## Introduction
 
-### À propos de moi
+**Titre:** Migration vers l'Europe (1945-1970)
 
-### Objectifs de la présentation
+**Contenu:** Après la Seconde Guerre mondiale, plusieurs événements ont eu un impact significatif sur les migrations en Europe. Ces tendances ont marqué le paysage démographique et politique de l'époque.
 
-### Qu'est-ce que la migration?
+## Décolonisation
 
-### Cause -\> Migration -\> Conséquence
+**Titre:** Décolonisation (1945-1960)
 
-### Plan
+**Contenu:** Les anciennes puissances coloniales européennes, notamment la France, le Royaume-Uni, la Belgique et les Pays-Bas, ont commencé à libérer leurs colonies en Afrique et en Asie. Cela a conduit à des flux importants de réfugiés et d'immigrants.
 
-## Section 1: Débuts du XXe siècle (1901-1914) - contextes historiques
+## Reconstruction européenne
 
-### 0. **Révolution industrielle et urbanisation**
+**Titre:** Reconstruction européenne (1945-1960)
 
-La révolution industrielle a profondément transformé l'économie européenne, entraînant une forte croissance urbaine et un étalement de la population vers les zones industrielles. Les gens quittaient leurs régions rurales pour chercher du travail dans des villes comme Manchester, Londres, Berlin ou Paris.
+**Contenu:** La ruine économique causée par la guerre a poussé l'Europe occidentale à recruter largement dans les pays méditerranéens et certaines anciennes colonies pour soutenir sa reconstruction.
 
-### 1. Nationalisme et tension entre les nations
+## Crise des réfugiés
 
-Le texte mentionne le système d'alliances secrètes formé par Bismarck pour isoler la France après sa défaite face à l'Allemagne en 1870-71. Cette période a vu une montée des nationalismes et des rivalités entre grandes puissances européennes.
+**Titre:** Système de protection des réfugiés (1950)
 
-### 2. **Croissance démographique**
+**Contenu:** Afin de répondre aux catastrophes comme la guerre civile grecque, les autorités européennes ont mis en place un système international de protection des réfugiés, conduisant à l'établissement du statut juridique du réfugié par le Haut Commissariat des Nations Unies pour les réfugiés (HCR).
 
-L'Europe a connu une forte croissance démographique au cours de la fin du XIXe siècle et des premières années du XXe siècle. Les conditions sanitaires s'améliorant et les taux de natalité restant élevés, la population européenne augmentait rapidement.
+## Crise algérienne
 
-### 3. **Émigration vers l'Amérique**
+**Titre:** Guerre d'indépendance de l'Algérie (1954-1962)
 
-Bien que cette période soit parfois associée à une forte émigration d'Europe vers le Nouveau Monde (principalement les États-Unis), il est important de noter qu'il y avait également des migrations internes et intereuropéennes importantes. Les pays baltes, la Pologne et l'Allemagne ont enregistré un grand nombre de migrants venant chercher du travail dans le sud de l'Europe ou vers les zones industrielles d'autres pays européens.
+**Contenu:** Pendant la guerre d'indépendance, un déplacement massif de population a eu lieu, en particulier vers la métropole française.
 
-### 4. **Colonisation**
+## Accords de travailleurs temporairement accueillis
 
-L'expansion coloniale européenne a également eu un impact significatif sur la migration, bien que ce soit principalement une sortie de l'Europe vers les colonies plutôt qu'une entrée en Europe.
+**Titre:** Accords internationaux (1950-1970)
 
-### 5. **Politiques et nationalismes**
+**Contenu:** L'Italie, la Turquie et la Grèce ont signé des accords avec l'Allemagne et les Pays-Bas pour envoyer des travailleurs temporaires dans ces pays européens en croissance rapide.
 
-La montée des nationalismes dans divers pays européens a parfois conduit à la création d'enclaves ethniques ou religieuses qui ont pu être le théâtre de tensions internes, poussant certaines populations à chercher refuge ailleurs en Europe.
+## Impact sur les politiques d'immigration
 
-### 6. **Régimes politiques et échanges**
+**Titre:** Évolution des politiques d'immigration
 
-Dans certains pays européens, des régimes politiques autoritaires ont conduit à la déportation ou au départ volontaire d'opposants politiques. Des mouvements sociaux et syndicaux internationaux favorisaient également l'échange de membres entre différentes régions et pays.
+**Contenu:** Ces événements ont contribué à façonner les politiques d'immigration européennes actuelles, ainsi qu'à l'accroissement diversifié des populations immigrantes en Europe.
 
-### 7. **Conflits et guerres**
+## Exemple : Wirtschaftswunder (Économie allemande)
 
-Bien que la Première Guerre Mondiale n’ait officiellement commencé qu’en 1914, les tensions dans la région balkanique ont précédemment conduit à des conflits comme la première (1912-13) et la deuxième (1913) guerre balkaniques, qui ont également eu un impact significatif sur les mouvements de population.
+**Titre:** Le "Miracle économique" allemand
 
-### Contexte spécifique :
+**Contenu:** L'économie de la République fédérale d'Allemagne s'est redressée rapidement après 1945, attirant une forte immigration travailleuse des pays d'Europe du Sud et de Turquie.
 
-La migration en Europe avant 1914 a été marquée par des flux massifs vers les pays industrialisés pour le travail, mais aussi à l'intérieur même des nations européennes vers les régions industrielles et urbaines. L'Europe était un lieu de grande mobilité, où les gens cherchaient de meilleures conditions de vie et d'opportunités économiques.
+## Exemple : Plan Marshall
 
-### Conséquences :
+**Titre:** Le "Plan Marshall"
 
-Cette migration massive a contribué au mélange ethnique des sociétés européennes modernes, influençant considérablement la démographie, l'économie et la culture. Elle a également mis en évidence les inégalités économiques et sociales entre les zones rurales et urbaines, ainsi que les disparités entre régions développées et moins développées.
+**Contenu:** Le programme économique américain a attiré beaucoup d'immigrants qualifiés pour aider à la reconstruction européenne, contribuant ainsi au développement économique post-guerre.
 
-La période précédant la Première Guerre Mondiale est donc une ère de grandes migrations internes et internationales qui ont façonné l'Europe contemporaine.
+## Réfugiés et conflits
 
-### Flux migratoire mondiaux avant la première Guerre mondiale
+**Titre:** Fuite des réfugiés
 
-Avant la Première Guerre Mondiale, les principaux flux migratoires étaient :
+**Contenu:** De nombreux réfugiés ont fui les conflits en Europe centrale et orientale, comme l'exode des Hongrois en 1956.
 
-1.  Europe vers Amérique du Nord :
+Voici la transformation du texte en plusieurs slides Reveal.js pour se concentrer spécifiquement sur les événements majeurs relatifs à la migration vers l'Europe durant et après la Seconde Guerre mondiale, avec une attention particulière aux années 1945-1970 :
 
-    -   Plus de 35 millions d'Européens ont immigré aux États-Unis entre 1820 et 1924
-    -   Flux important vers le Canada et l'Australie
+## Début des Migrations de Travail
 
-2.  Européens vers Afrique :
+**Titre:** Début des migrations de travail (années 1950)
 
-    -   Migrants blancs européens en Afrique du Sud (Boers, Britanniques)
-    -   Expatriés pour travailler dans les mines ou administrer les colonies
+**Contenu:** À partir des années 1950, les pays européens commencent à recruter activement du personnel étranger pour combler les manques de main-d'œuvre dans divers secteurs industriels. Cela a conduit à une forte immigration.
 
-3.  Chinois vers Amérique du Nord et Caraïbes :
+## Migrations Maghrébines et Turques
 
-    -   Flux important vers la Californie (or noir), le Canada, et les plantations des Antilles
+**Titre:** Immigration des travailleurs maghrébins vers la France (années 1950-60)
 
-4.  Européens méditerranéens vers Amérique latine :
+**Contenu:** Les travailleurs maghrébins se sont déplacés en masse vers la France pour combler les besoins de main-d'œuvre dans l'industrie.
 
-    -   Italiens et Espagnols en Argentine et au Brésil
+## Migrations Turques
 
-5.  Migrants ruraux vers villes industrielles dans l'Europe occidentale
+**Titre:** Immigration des travailleurs turcs vers l’Allemagne (années 1950-60)
 
-6.  Travailleurs saisonniers entre pays d'Europe centrale et méridionale
+**Contenu:** Les travailleurs turcs ont également migré en masse vers l'Allemagne pour combler les besoins de main-d'œuvre dans divers secteurs industriels.
 
-Ces flux migratoires étaient influencés par la colonisation, la révolution industrielle, les changements démographiques et les opportunités économiques mondiales.
+## Crise des Réfugiés Hongrois
 
-------------------------------------------------------------------------
+**Titre:** Crise des réfugiés hongrois (1956)
 
-### **Facteurs Précurseurs de la Première Guerre Mondiale (P.G.M.)**
+**Contenu:** Suite à la révolution hongroise en 1956, un grand nombre de Hongrois quittent le pays pour chercher refuge en Allemagne Occidentale, France et Canada.
 
-#### Industrialisation et Modernisation Économique
+## Décolonisation
 
--   Développement rapide des transports (chemin de fer, navires à vapeur)
--   Apparition d'une économie mondiale facilitant les mouvements migratoires internationaux
+**Titre:** Début de la décolonisation (années 1950)
 
-------------------------------------------------------------------------
+**Contenu:** À partir des années 1950, la décolonisation commence à s'accélérer dans l'Empire colonial français et britannique.
 
-### **Nationalismes Croissants**
+## Cas Spécifique Algérien
 
--   Aspiration à l'autonomie nationale dans diverses régions
--   Exemples : nationalisme serbe et autres nationalismes en Europe
+**Titre:** Rapatriement de pieds-noirs et arrivée de réfugiés algériens (1962)
 
-#### Système Diplomatique Complexé
+**Contenu:** La fin du protectorat algérien en 1962 a conduit au rapatriement d'un grand nombre de colons français (les pieds-noirs) et à l'arrivée massive de réfugiés algériens en France.
 
--   Formation de blocs alliés (Triple Alliance, Triple Entente)
-    -   Augmentation des tensions internationales
-    -   Impact sur la circulation des personnes entre pays alliés et leurs colonies
+## Crise des Réfugiés Vietnamiens
 
-------------------------------------------------------------------------
+**Titre:** Crise des réfugiés vietnamiens (années 1970)
 
-### **Événements Précédant la P.G.M.**
+**Contenu:** À la fin des années 1970, suite à la chute du Sud-Vietnam en 1975, un flux important de réfugiés ("boat people") fuit le Vietnam et trouve refuge dans différents pays occidentaux.
 
-#### Crise de Bosnie en 1908-1909
+## Conséquences Sociales et Politiques
 
--   Tensions croissantes entre l'Autriche-Hongrie, la Russie, la Serbie et autres pays balkaniques
+**Titre:** Impact sur les économies européennes et défis sociaux/politiques
 
-#### Première Guerre Balkanique (1912-1913)
+**Contenu:** Ces migrations ont profondément marqué l'Europe, contribuant aux économies grâce à la main-d’œuvre immigrée, mais aussi posant des défis sociaux et politiques significatifs.
 
--   Conflits entre la Turquie, la Serbie, la Bulgarie, la Grèce et le Monténégro
--   Déplacement forcé de populations civiles
+# Fin du XXe siècle à l'époque contemporaine (1970 – 2000) {data-background="#ffffe0"}
 
-------------------------------------------------------------------------
+### Slide 1: Introduction - La Migration Post-1970
 
-### **Impact des Événements sur les Mouvements Migratoires**
+**Titre:** La migration vers l'Europe après 1970 : Une évolution complexe\
+**Contenu:** - L'accroissement des demandes d'asile depuis la fin du 20ème siècle - Les changements géopolitiques et économiques ont influencé les flux migratoires
 
-#### Industrialisation et Urbanisation
+### Slide 2: Réaménagement des frontières post-guerre froide (1989 - début 1990)
 
--   Attraction vers les zones urbaines et industrielles
--   Déplacements en masse dans certaines régions (comme l'Europe centrale)
+**Titre:** Évolution des Frontières en Europe de l'Est - Chute du rideau de fer et ouverture progressive des frontières\
+- L'émergence d'une plus grande mobilité économique
 
-#### Tensions Nationalistes
+### Slide 3: Crise migratoire 2015-2016 : Un pic historique
 
--   Déplacement forcé de populations ethniques
+**Titre:** Le pic de la demande d'asile (2015) - Conflits simultanés en Irak, Syrie, Libye et Érythrée - 1,28 million de demandes d'asile record
 
-#### Établissement d’Empires Coloniaux
+### Slide 4: Diversification des Motivations Migratoires
 
--   Flux migratoires entre métropole et colonies
+**Titre:** Pourquoi les gens migrent vers l'Europe ? - Réfugiés politiques ou économiques - Études et opportunités professionnelles
 
-------------------------------------------------------------------------
+### Slide 5: Accroissement du Nombre d'Immigrants Non-Européens
 
-## Section 2: Première Guerre Mondiale (1914 - 1918) et ses conséquences sur les migrations
+**Titre:** La Diversité Croissante des Migrants - Environ 35 millions d'immigrés dans l'UE, dont la majorité non-européenne - Répartition inégale entre les pays européens
 
-### Impact de la guerre sur les migrations
+### Slide 6: Politiques de Restriction et Frontières Renforcées
 
-## Section 3: Entre-deux-Guerres (1920 – 1945)
+**Titre:** Les Mesures Européennes pour Gérer le Flux Migratoire - Création de l'agence Frontex en 2004 - Accords avec des pays tiers pour servir de "zones tampons"
 
-### Mouvements migratoires
+### Slide 7: Dénombrement Croissant et Réponses Positives
 
-Bien sûr, voici un résumé des informations sous forme de diapositives PowerPoint ou d'un document structuré en sections pour une présentation.
+**Titre:** Tendances dans le Traitements des Demandes d'Asile - Environ 50% des demandes aboutissent à une réponse positive en 2018 - Comparaison avec les taux de réussite antérieurs
 
-**Présentation : Début du 20ème siècle et ses impacts sur l'histoire migratoire**
+### Notes et références pour chaque slide:
 
-------------------------------------------------------------------------
+**Slide 1:** - **Introduction:** Développer un bref résumé sur l'évolution des migrations après la guerre froide.
 
-### **Introduction**
+**Slide 2:** - **Réaménagement des frontières post-guerre froide (1989 - début 1990):** Utiliser une carte interactive montrant les changements de frontières en Europe, et un graphique pour illustrer l'ouverture économique progressive.
 
--   Contexte historique
-    -   Fin du 19ème siècle au début du 20ème siècle
+**Slide 3:** - **Crise migratoire 2015-2016 : Un pic historique:** Des images représentatives des camps de réfugiés ou d'accueil peuvent aider à visualiser la situation.
 
-------------------------------------------------------------------------
+**Slide 4:** - **Diversification des Motivations Migratoires:** Utiliser un graphique circulaire montrant les pourcentages de migrants selon leurs motivations (étude, travail, refuge).
 
-### **Facteurs Précurseurs de la Première Guerre Mondiale (P.G.M.)**
+**Slide 5:** - **Accroissement du Nombre d'Immigrants Non-Européens:** Un graphique à barres ou une carte pour visualiser la répartition géographique des immigrants non-européens.
 
-#### Industrialisation et Modernisation Économique
+**Slide 6:** - **Politiques de Restriction et Frontières Renforcées:** Utilisez des images de points d'entrée contrôlés, de frontières surveillées, et éventuellement un graphique montrant l'évolution du budget alloué à Frontex au fil des années.
 
--   Développement rapide des transports (chemin de fer, navires à vapeur)
--   Apparition d'une économie mondiale facilitant les mouvements migratoires internationaux
+**Slide 7:** - **Dénombrement Croissant et Réponses Positives:** Un tableau comparatif entre les années pour présenter la tendance dans le traitement de demandes d'asile, et un graphique montrant l'évolution du taux de réponse positive aux demandes.
 
-------------------------------------------------------------------------
+# Conclusion {data-background="#e6e6fa"}
 
-### **Nationalismes Croissants**
+### Slide 1: Introduction
 
--   Aspiration à l'autonomie nationale dans diverses régions
--   Exemples : nationalisme serbe et autres nationalismes en Europe
+-   **Titre**: Flux Migratoires Postérieurs à 1970 Vers L'Europe\
+-   **Texte**: Après les années 1970, plusieurs facteurs ont influencé la migration vers l'Europe. Les demandes d'asile se sont accrues, et des agences ont été créées pour gérer ces flux.
 
-#### Système Diplomatique Complexé
+### Slide 2: Pic des Demandes d’Asile
 
--   Formation de blocs alliés (Triple Alliance, Triple Entente)
-    -   Augmentation des tensions internationales
-    -   Impact sur la circulation des personnes entre pays alliés et leurs colonies
+-   **Titre**: Accroissement des Demandes d'Asile (Particulièrement après 2010)
+-   **Texte**:
+    -   En 2015 : pic de 1,28 million de demandeurs en Europe.
+    -   De 2010 à 2018 : augmentation significative des demandes, passant de 235 000 à 608 000.
 
-------------------------------------------------------------------------
+### Slide 3: Création de Frontex et Accords
 
-### **Événements Précédant la P.G.M.**
+-   **Titre**: Réponse Politique - Création de Frontex et Accord avec la Turquie
+-   **Texte**:
+    -   Fondation de Frontex en 2004.
+    -   Accord avec la Turquie pour servir de "zones tampons".
 
-#### Crise de Bosnie en 1908-1909
+### Slide 4: Contextes Géopolitiques des Migrations
 
--   Tensions croissantes entre l'Autriche-Hongrie, la Russie, la Serbie et autres pays balkaniques
+-   **Titre**: Crises Géopolitiques et Conflits qui ont déclenché des Flux Migratoires
+-   **Texte**:
+    -   Conflit syrien (depuis 2011).
+    -   Guerres en Libye, Irak, Érythrée.
+    -   Autres crises politiques dans la bande allant de la Mauritanie à l'Inde.
 
-#### Première Guerre Balkanique (1912-1913)
+### Slide 5: Augmentation des Immigrés Extra-européens
 
--   Conflits entre la Turquie, la Serbie, la Bulgarie, la Grèce et le Monténégro
--   Déplacement forcé de populations civiles
+-   **Titre**: Augmentation des Immigrés Extra-Européens
+-   **Texte**:
+    -   Environ 23 millions d'immigrés extra-européens en Europe.
 
-------------------------------------------------------------------------
+### Slide 6: Proportion de la Population Européenne
 
-### **Impact des Événements sur les Mouvements Migratoires**
+-   **Titre**: Pourcentage des Immigrés dans la Population Totale
+-   **Graphique** : Barres représentant la proportion des immigrés par pays européen (à partir des données disponibles).
 
-#### Industrialisation et Urbanisation
+### Slide 7: Contextes Economiques et Sociaux
 
--   Attraction vers les zones urbaines et industrielles
--   Déplacements en masse dans certaines régions (comme l'Europe centrale)
+-   **Titre**: Facteurs Économiques et Sociaux Influence les Flux Migratoires
+-   **Texte**:
+    -   Récession économique.
+    -   Offres d'emploi dans certains secteurs.
 
-#### Tensions Nationalistes
+### Slide 8: Démarche des États Européens
 
--   Déplacement forcé de populations ethniques
+-   **Titre**: Politiques Migratoires Postérieures à 1970
+-   **Texte**:
+    -   Politiques de quotas pour les réfugiés.
+    -   Soutien social et assistance pour les demandeurs d'asile.
 
-#### Établissement d’Empires Coloniaux
+### Slide 9: Évolution des Flux Migrants
 
--   Flux migratoires entre métropole et colonies
+-   **Titre**: Évolution du Nombre de Réfugiés et Demandes d’Asile au fil des Années
+-   **Graphique** : Linéaire montrant l'évolution depuis 1970 jusqu'à nos jours.
 
-------------------------------------------------------------------------
+### Slide 10: Conclusion
 
-### **Conclusion**
+-   **Titre**: Importance des Flux Migratoires Postérieurs à 1970\
+-   **Texte**: Les flux migratoires postérieurs à 1970 ont été influencés par des crises géopolitiques, économiques et sociales. La gestion de ces flux est une préoccupation croissante pour les gouvernements européens.
 
--   Le début du 20ème siècle a semé les graines pour une période tumultueuse, dont l'histoire migratoire est indissociable.
--   La Première Guerre Mondiale a eu des conséquences majeures sur les mouvements migratoires pendant le reste du 20ème siècle.
+### Notes de présentation:
 
-------------------------------------------------------------------------
+**Slide 2:** - Utiliser un graphique pour montrer l'évolution du nombre de demandeurs d'asile entre 2010 et 2018.
 
-Cette structure peut être détaillée et illustrée avec des images, des graphiques, et des données pour une présentation plus complète.
+**Slide 3:** - Ajouter une photo ou un logo représentatif de Frontex.
 
-### après la Première Guerre Mondiale
+**Slide 4:** - Incorporer des images géographiques montrant les zones affectées par ces conflits.
 
-### Politiques d'immigration des différents pays
+**Slide 5:** - Utiliser des chiffres spécifiques et source vérifiée pour l'estimation du nombre d'immigrés extra-européens.
 
-## Section 4: Seconde Guerre Mondiale (1939 – 1945)
+**Slides 7 & 8:** - Intégrer des exemples de politiques spécifiques telles que les lois sur le logement, l'éducation, et le travail pour les réfugiés.
 
-### Les réfugiés pendant la Seconde Guerre Mondiale
+**Slide 9:** - Utiliser un graphique linéaire avec une vue à long terme couvrant plusieurs décennies.
 
-## Section 5: Période post-guerre et les migrations Massives (1945 – 1970)
+## Conséquences sociales, économiques et politiques des grandes vagues de migration
 
-### Flux migratoire poste-guerre
-
-### Reconstruction
-
-## Section 6: Fin du XXe siècle à l'époque contemporaine (1970 – 2000)
-
-### Conséquences sociales, économiques et politiques des grandes vagues de migration
-
-### Conséquences et défis actuels de la migration
-
-## Conclusion
+## Conséquences et défis actuels de la migration
