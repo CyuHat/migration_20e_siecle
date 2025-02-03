@@ -4,11 +4,11 @@ authors:
   - name: "Hategekimana Vestin" 
     affiliation: "University of Geneva"
     email: "vestin.hategekimana@unige.ch"
-subtitle: "coming-soon"
+subtitle: https://cyuhat.github.io/migration_20e_siecle/
 format: 
   clean-revealjs:
     transition: slide
-    logo: logo.png
+    logo: wedata_logo.png
   pptx: default
   docx: default
 nocite: |
@@ -19,13 +19,60 @@ nocite: |
 
 ## À propos de moi
 
+### Vestin Hategekimana
+
+![](pp.jpeg){fig-align="center" width="180"}
+
+-   Assistant-doctorant en démographie (IDESO)
+
+    -   Institut de socioéconomie et de démographie (UNIGE)
+
+-   Migration et mobilité en Suisse en temps de crise
+
+-   Passionné des sciences des données (computational social sciences)
+
+## WeData
+
+![](wedata_logo.png){fig-align="right" width="44"}
+
+> "Des stats et du code!"
+
+*Groupe étudiant ayant une passion pour le code et les statistiques: cours et contenu!*
+
+-   Notre site: <https://wedata.ch/>
+-   Notre chaîne YouTube: [WeData](https://www.youtube.com/channel/UCGktdbvbc_H-JEkYYTvwRVw)
+-   Instagram: @wedata_unige
+
 ## Objectifs de la présentation
 
+1.  Comprendre l'aspect continu et permanent des migrations.
+2.  Analyser les principales périodes migratoires à travers les données chiffrées.
+3.  Examiner les causes et les effets des mouvements de population.
+
 ## Qu'est-ce que la migration?
+
+> Un migrant à long terme est une personne qui vit en dehors de son pays d'origine pendant au moins 12 mois.
+
+*Département des Affaires Économiques et Sociales des Nations Unies*
+
+**Dans cette présentation**
+
+-   Migration liée à la colonisation
+-   Migration forcée
+-   Migration ethnique
+-   Migration économique
+-   Migration liée à la décolonisation
+-   Migration issue de la mondialisation
 
 ## Cause -\> Migration -\> Conséquence
 
 ## Plan
+
+1.  Début du 20ème siècle et ses impacts sur l'histoire migratoire
+2.  Première Guerre Mondiale et entre deux guerres
+3.  Seconde Guerre Mondiale et période d'après guerre
+4.  Fin du XXe siècle à l'époque contemporaine
+5.  Conclusion
 
 # Début du 20ème siècle et ses impacts sur l'histoire migratoire {data-background="#f5f5dc"}
 
@@ -347,13 +394,13 @@ Persécution des minorités ethniques
 -   **Europe Centrale et Orientale** : Changements majeurs dans le paysage démographique.
 -   **Amérique Latine** : Population espagnole a augmenté significativement.
 
-## **Après-guerre introduction** 
+## **Après-guerre introduction**
 
 \- Titre : "Mouvements migratoires après la Seconde Guerre mondiale" - Sous-titre : "Entre 1945 et 1970, l'Europe a connu une série de grands mouvements migratoires qui ont façonné son économie et sa société."
 
 Titre : "Impact des mouvements migratoires en Europe (1945-1970)" - Texte : Ces grands mouvements de population ont façonné l'Europe que nous connaissons aujourd'hui. Ils ont profondément influencé son économie, sa société et ses relations internationales.
 
-## **Répatriations** 
+## **Répatriations**
 
 \- Titre : "Répatriation des Français" - Texte : Des millions de Français sont retournés en France après avoir vécu sous l'occupation allemande pendant la Seconde Guerre mondiale.
 
