@@ -15,13 +15,24 @@ nocite: |
   @*
 ---
 
+```{r}
+#| message: false
+#| warning: false
+pacman::p_load(
+  tidyverse, echarts4r
+)
+
+```
+
 # Introduction
 
 ## À propos de moi
 
 ### Vestin Hategekimana
 
-![](pp.jpeg){fig-align="center" width="180"}
+.
+
+![](pp.jpeg){.absolute top="0" right="480" width="230"}
 
 -   Assistant-doctorant en démographie (IDESO)
 
@@ -33,7 +44,7 @@ nocite: |
 
 ## WeData
 
-![](wedata_logo.png){fig-align="right" width="44"}
+![](wedata_logo.png){.absolute top="30" right="500" width="200"}
 
 > "Des stats et du code!"
 
@@ -53,26 +64,28 @@ nocite: |
 
 > Un migrant à long terme est une personne qui vit en dehors de son pays d'origine pendant au moins 12 mois.
 
-*Département des Affaires Économiques et Sociales des Nations Unies*
+### *Département des Affaires Économiques et Sociales des Nations Unies*
 
-**Dans cette présentation**
+## Dans cette présentation
 
+::: {.r-fit-text}
 -   Migration liée à la colonisation
 -   Migration forcée
 -   Migration ethnique
 -   Migration économique
 -   Migration liée à la décolonisation
 -   Migration issue de la mondialisation
-
-## Cause -\> Migration -\> Conséquence
+:::
 
 ## Plan
 
+::: {.r-fit-text}
 1.  Début du 20ème siècle et ses impacts sur l'histoire migratoire
 2.  Première Guerre Mondiale et entre deux guerres
 3.  Seconde Guerre Mondiale et période d'après guerre
 4.  Fin du XXe siècle à l'époque contemporaine
 5.  Conclusion
+:::
 
 # Début du 20ème siècle et ses impacts sur l'histoire migratoire {data-background="#f5f5dc"}
 
@@ -81,12 +94,10 @@ nocite: |
 Fin du 19ème siècle au début du 20ème siècle
 
 -   Industrialisation et révolution technologique
--   Émergence de nationalismes et impérialismes
 -   Croissance démographique
+-   Éxode rural
 -   Émigration vers l'Amérique
 -   Expansion Coloniale Européenne
--   Émergence des Enclaves Ethniques
--   Régimes Politiques et Migration
 
 ## Révolution Industrielle et Urbanisation
 
@@ -96,65 +107,168 @@ La révolution industrielle entraîne une urbanisation massive
 
 -   Migration vers les zones industrielles (ex : Manchester, Londres, Berlin, Paris).
 
-...Illustrations de villes industrielles au début du XXe siècle.
+[![Industrie d'une banlieue Parisienne, source: histoire19.hypotheses.org](figures/01_industrie_banlieue_parisienne.jpg){fig-align="center" width="430"}](https://histoire19.hypotheses.org/899)
 
-...montrant l'étendue des zones urbaines en Europe.
+## Industrialisation inégale
 
-## Nationalisme et Tensions Internationales
-
-Émergence de nationalismes et tensions entre nations
-
--   Montée des nationalités et rivalités entre grandes puissances.
-
--   Système d'alliances pour contrer la menace française après 1870.
-
-...Graphique interactif représentant les alliances européennes avant la Première Guerre Mondiale.
+[![Industrialisation en Europe XIXe et XXe siècle, source: livrescolaire.fr](figures/02_Industrialisation_en_europe_xix_xx.png){fig-align="center"}](https://img.lelivrescolaire.fr/histoire-4e-2016/les-societes-a-l-age-industriel/l-europe-au-xixe-siecle/3000.h.4.4.c1.1..png)
 
 ## Croissance Démographique
 
+::::: columns
+::: {.column width="50%"}
 Une Europe en pleine croissance démographique
 
 -   Forte augmentation de la population européenne à la fin du XIXe siècle et au début du XXe.
 
 -   Amélioration des conditions sanitaires et taux de natalité élevés.
+:::
+
+::: {.column width="50%"}
+[![Transition démographique](figures/07_transition_démographique.png){fig-align="center" width="500"}](https://media.kartable.fr/uploads/finalImages/final_59ccc947d201a4.82892989.png)
+:::
+:::::
+
+## Exode urbain
+
+::: {.r-fit-text}
+-   Royaume-Uni: fin du 18e siècle
+
+-   France: milieux du 19 siècle, début 20e siècle
+
+-   Allemagne: fin du 19e siècle
+
+-   Italie: fin du 19e siècle
+
+-   Espagne: milieux du 20e siècle
+
+-   Portugal: milieux du 20e siècle
+:::
+
+## Exode Urbain: Royaume-Uni
+
+[![Royaume-Uni: population Rurale et Urbaine 1600-1950](figures/03_UK_urban_rural_population.jpg){fig-align="center"}](https://lrhmatters.com/wp-content/uploads/2022/01/Population-growth-urbanisation-England-1600-1950-1.jpg)
+
+## Exode Urbain: France
+
+[![France: population rurale et urbaine 1850-1968](figures/04_France_population_rurale_urbaine.jpg){fig-align="center"}](https://www.observatoire-des-territoires.gouv.fr/kiosque/2021-2022-rapport-cahier-1-demo-chap-01-03-dune-france-rurale-une-france-urbaine-les)
 
 ## Émigration vers l'Amérique
 
+::::: columns
+::: {.column width="35%"}
 Massives migrations vers le Nouveau Monde
 
 -   Départ de millions d’Européens vers les États-Unis.
 
--   Migration interne et européenne vers zones industrielles du sud.
+-   Migration économique
+:::
 
-...Statistiques montrant le nombre de migrants par années.
+::: {.column .center width="65%"}
+```{r}
+tibble(
+  periode = factor(c("1819-1840", "1840-1860")),
+  nombre = c(743000, 4000000)
+) %>% 
+  e_charts(periode) %>% 
+  e_bar(nombre)
+  
+```
+:::
+:::::
 
-## Expansion Coloniale Européenne
+## Ruée vers l'or (1848)
 
-Impact de la colonisation sur la mobilité humaine
+::::: columns
+::: {.column width="35%"}
+-   Bien qu'il existe des régulation, il n'existe pas encore de loi sur l'immigration.
+-   Ce n'est qu'en 1882 qu'est voté le premier Immigration Act qui impose une taxe de 0.50\$ par immigrant (Natives and strangers : ethnic groups and the building of America).
+:::
 
--   Flux migratoires hors d’Europe pour les colonies.
+::: {.column .center width="65%"}
+```{r}
+tibble(
+  periode = c(rep("1840-1860", 4), rep("1841-1850", 4)),
+  nationalite = c("Irlandais", "Allemands", "Britanniques", "Français", "Allemands", "Irlandais", "Britanniques", "Français"),
+  nombre = c(781000, 434000, 255000, 77000, 951000, 914000, 317000, 76000) 
+) %>% 
+  group_by(periode) %>% 
+  e_charts(nationalite, timeline = TRUE) %>% 
+  e_bar(nombre)
 
--   Faible impact entrant en Europe, prédominance des sorties européennes.
+```
+:::
+:::::
 
-...Carte des colonies
+## Migration italienne aux États-Unis {auto-animate=true}
 
-## Émergence des Enclaves Ethniques
+::::: columns
+::: {.column width="40%"}
 
--   Nationalismes conduisant à l'établissement d'enclaves.
+::: {.r-fit-text}
+**Plus grande migration volontaire**
 
--   Tensions internes poussant certains groupes à chercher refuge ailleurs.
+De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour les États-unis 
+:::
+:::
 
-## Régimes Politiques et Migration
+::: {.column .center width="60%"}
+[![Émigration italienne vers les États-Unis, source: hgsempai.fr](figures/08_migration_italienne.png){fig-align="center"}](http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png)
+:::
+:::::
 
-Impact des régimes politiques sur la migration
+## Migration italienne aux États-Unis {auto-animate=true}
 
--   Déportations par des régimes autoritaires.
+::::: columns
+::: {.column width="40%"}
 
--   Echanges de membres entre syndicats internationaux.
+::: {.r-fit-text}
+Motif: Unification (Risorgimento) en 1861 qui a aggravé les conditions économiques
+
+-   Troubles politiques et sociaux
+-   Inégalité entre le Nord industrielisé et le Sud agricole
+-   Tensions fiscales et douanières
+-   Epuisement des sols
+:::
+:::
+
+::: {.column .center width="60%"}
+[![Émigration italienne vers les États-Unis, source: hgsempai.fr](figures/08_migration_italienne.png){fig-align="center"}](http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png)
+:::
+:::::
+
+## Migration italienne aux États-Unis {auto-animate=true}
+
+::::: columns
+::: {.column width="40%"}
+
+::: {.r-fit-text}
+**"Oiseau de passage" (immigrés temporaires)**: 49% des migrants retournent dans leur pays d'origine entre 1905 et 1920 (Emigrant Nation: The making of Italy abroad)
+:::
+:::
+
+::: {.column .center width="60%"}
+[![Émigration italienne vers les États-Unis, source: hgsempai.fr](figures/08_migration_italienne.png){fig-align="center"}](http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png)
+:::
+:::::
+
+## Expansion Coloniale Européenne au XIXe siècle
+
+[![Carte des colonies au XIXe siècle, source: kartable.fr](figures/09_carte_coloniale_19e.png){fig-align="center" width="800"}](https://media.kartable.fr/uploads/finalImages/final_590341646b7e70.61570288.png?1504278562)
 
 # Première Guerre Mondiale et entre deux guerres {data-background="#d3d3d3"}
 
-## Facteurs précurseurs de la Première Guerre Mondiale (P.G.M.)
+## Nationalisme et Tensions Internationales
+
+-   Montée des rivalités entre grandes puissances.
+
+[![Territoires occupés, source: Kartable.fr](figures/05_alliances_avant_1914.png){fig-align="center" width="700"}](https://media.kartable.fr/uploads/finalImages/final_57067d7c7e1233.76032976.png?1466697618)
+
+## Jeu d'alliance
+
+[![Jeu d'alliance en Europe, source: lisasultan.e-monsite.com](figures/06_jeu_alliance.jpg){fig-align="center"}](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Oy97lZp0lo4w659i-71yGAHaEa%26pid%3DApi&f=1&ipt=05fb4290fd4e96252e58a028ca0d749ecf5b4dde186b073ad048b06b1bab30a6&ipo=images)
+
+## Facteurs précurseurs de la Première Guerre Mondiale {auto-animate=true}
 
 -   **Industrialisation et modernisation économique**:
     -   Développement rapide des transports (chemin de fer, navires à vapeur)
@@ -162,52 +276,16 @@ Impact des régimes politiques sur la migration
 -   **Nationalismes croissants**:
     -   Aspiration à l'autonomie nationale dans diverses régions
     -   Exemples : nationalisme serbe, irlandais, polonais
+    
+## Facteurs précurseurs de la Première Guerre Mondiale {auto-animate=true}
 
-## Système diplomatique complexé
-
--   Formation de blocs alliés (Triple Alliance, Triple Entente)
--   Augmentation des tensions internationales
-
-## Événements précédant la P.G.M.
-
--   Crise de Bosnie en 1908-1909:
+-   **Crise de Bosnie en 1908-1909:**
+    -   La Serbie souhaite unir les peuples slaves
+    -   Mais l'Empire Autro-Hongrois annexe la Bosnie-Herzégovine
     -   Tensions croissantes entre l'Autriche-Hongrie, la Russie et les Balkans
-
-## Première Guerre Balkanique (1912-1913)
-
--   Conflits régionaux (Turquie, Serbie, Bulgarie, Grèce, Monténégro)
--   Déplacement forcé de populations civiles
-
-## Impact des événements sur les mouvements migratoires
-
--   **Industrialisation et urbanisation**:
-    -   Attraction vers les zones urbaines et industrielles
-    -   Déplacements massifs dans certaines régions (Europe centrale)
--   **Tensions nationalistes**:
-    -   Déplacement forcé de populations ethniques
-
-## Établissement d'empires coloniaux
-
--   Flux migratoires entre métropoles et colonies
-
-## Industrialisation et révolution technologique (détails)
-
--   Révolution industrielle dans l'Europe occidentale
--   Travailleurs saisonniers entre pays d'Europe centrale et méridionale
-
-## Nationalismes croissants (exemples supplémentaires)
-
--   Exemples : nationalisme serbe, irlandais, polonais, etc.
-
-## Système diplomatique complexé (détails)
-
--   **Triple Alliance** : Allemagne, Autriche-Hongrie, Italie
--   **Triple Entente** : Angleterre, France, Russie
-
-## Événements précédant la P.G.M. (détails)
-
--   Assassinat de François-Ferdinand en 1914
--   Déclenchement immédiat de la Première Guerre Mondiale
+-   **Assassinat de François-Ferdinand en 1914 par un nationaliste Serbe**
+    -   L'Empire Austro-Hongrois accuse la Serbie d'avoir organiser l'attentat
+    -   Déclenchement immédiat de la Première Guerre Mondiale
 
 ## Entre deux guerres: Introduction
 

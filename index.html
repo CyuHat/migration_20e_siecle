@@ -319,6 +319,18 @@
       margin-right: 0; 
     }
   </style>
+  <link href="index_files/libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+  <script src="index_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+  <script src="index_files/libs/echarts4r-4.8.0/echarts-en.min.js"></script>
+
+  <script src="index_files/libs/echarts4r-4.8.0/ecStat.min.js"></script>
+
+  <script src="index_files/libs/echarts4r-4.8.0/dataTool.min.js"></script>
+
+  <script src="index_files/libs/echarts4r-binding-0.4.5/echarts4r.js"></script>
+
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -351,8 +363,9 @@ Hategekimana Vestin
 <section id="à-propos-de-moi" class="slide level2">
 <h2>À propos de moi</h2>
 <h3 id="vestin-hategekimana">Vestin Hategekimana</h3>
-
-<img data-src="pp.jpeg" class="quarto-figure quarto-figure-center r-stretch" width="180"><ul>
+<p>.</p>
+<p><img data-src="pp.jpeg" class="absolute" style="top: 0px; right: 480px; width: 230px; "></p>
+<ul>
 <li><p>Assistant-doctorant en démographie (IDESO)</p>
 <ul>
 <li>Institut de socioéconomie et de démographie (UNIGE)</li>
@@ -363,8 +376,8 @@ Hategekimana Vestin
 </section>
 <section id="wedata" class="slide level2">
 <h2>WeData</h2>
-
-<img data-src="wedata_logo.png" class="quarto-figure quarto-figure-right r-stretch" width="44"><blockquote>
+<p><img data-src="wedata_logo.png" class="absolute" style="top: 30px; right: 500px; width: 200px; "></p>
+<blockquote>
 <p>“Des stats et du code!”</p>
 </blockquote>
 <p><em>Groupe étudiant ayant une passion pour le code et les statistiques: cours et contenu!</em></p>
@@ -387,8 +400,11 @@ Hategekimana Vestin
 <blockquote>
 <p>Un migrant à long terme est une personne qui vit en dehors de son pays d’origine pendant au moins 12 mois.</p>
 </blockquote>
-<p><em>Département des Affaires Économiques et Sociales des Nations Unies</em></p>
-<p><strong>Dans cette présentation</strong></p>
+<h3 id="département-des-affaires-économiques-et-sociales-des-nations-unies"><em>Département des Affaires Économiques et Sociales des Nations Unies</em></h3>
+</section>
+<section id="dans-cette-présentation" class="slide level2">
+<h2>Dans cette présentation</h2>
+<div class="r-fit-text">
 <ul>
 <li>Migration liée à la colonisation</li>
 <li>Migration forcée</li>
@@ -397,12 +413,11 @@ Hategekimana Vestin
 <li>Migration liée à la décolonisation</li>
 <li>Migration issue de la mondialisation</li>
 </ul>
-</section>
-<section id="cause---migration---conséquence" class="slide level2">
-<h2>Cause -&gt; Migration -&gt; Conséquence</h2>
+</div>
 </section>
 <section id="plan" class="slide level2">
 <h2>Plan</h2>
+<div class="r-fit-text">
 <ol type="1">
 <li>Début du 20ème siècle et ses impacts sur l’histoire migratoire</li>
 <li>Première Guerre Mondiale et entre deux guerres</li>
@@ -410,6 +425,7 @@ Hategekimana Vestin
 <li>Fin du XXe siècle à l’époque contemporaine</li>
 <li>Conclusion</li>
 </ol>
+</div>
 </section></section>
 <section>
 <section id="début-du-20ème-siècle-et-ses-impacts-sur-lhistoire-migratoire" class="title-slide slide level1 center" data-background="#f5f5dc">
@@ -421,12 +437,10 @@ Hategekimana Vestin
 <p>Fin du 19ème siècle au début du 20ème siècle</p>
 <ul>
 <li>Industrialisation et révolution technologique</li>
-<li>Émergence de nationalismes et impérialismes</li>
 <li>Croissance démographique</li>
+<li>Éxode rural</li>
 <li>Émigration vers l’Amérique</li>
 <li>Expansion Coloniale Européenne</li>
-<li>Émergence des Enclaves Ethniques</li>
-<li>Régimes Politiques et Migration</li>
 </ul>
 </section>
 <section id="révolution-industrielle-et-urbanisation" class="slide level2">
@@ -436,66 +450,242 @@ Hategekimana Vestin
 <li><p>Transformation économique due à la révolution industrielle.</p></li>
 <li><p>Migration vers les zones industrielles (ex : Manchester, Londres, Berlin, Paris).</p></li>
 </ul>
-<p>…Illustrations de villes industrielles au début du XXe siècle.</p>
-<p>…montrant l’étendue des zones urbaines en Europe.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://histoire19.hypotheses.org/899"><img data-src="figures/01_industrie_banlieue_parisienne.jpg" class="quarto-figure quarto-figure-center" width="430" alt="Industrie d’une banlieue Parisienne, source: histoire19.hypotheses.org"></a></p>
+</figure>
+</div>
+<figcaption>Industrie d’une banlieue Parisienne, source: histoire19.hypotheses.org</figcaption>
+</figure>
+</div>
 </section>
-<section id="nationalisme-et-tensions-internationales" class="slide level2">
-<h2>Nationalisme et Tensions Internationales</h2>
-<p>Émergence de nationalismes et tensions entre nations</p>
-<ul>
-<li><p>Montée des nationalités et rivalités entre grandes puissances.</p></li>
-<li><p>Système d’alliances pour contrer la menace française après 1870.</p></li>
-</ul>
-<p>…Graphique interactif représentant les alliances européennes avant la Première Guerre Mondiale.</p>
+<section id="industrialisation-inégale" class="slide level2">
+<h2>Industrialisation inégale</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://img.lelivrescolaire.fr/histoire-4e-2016/les-societes-a-l-age-industriel/l-europe-au-xixe-siecle/3000.h.4.4.c1.1..png"><img data-src="figures/02_Industrialisation_en_europe_xix_xx.png" class="quarto-figure quarto-figure-center" alt="Industrialisation en Europe XIXe et XXe siècle, source: livrescolaire.fr"></a></p>
+</figure>
+</div>
+<figcaption>Industrialisation en Europe XIXe et XXe siècle, source: livrescolaire.fr</figcaption>
+</figure>
+</div>
 </section>
 <section id="croissance-démographique" class="slide level2">
 <h2>Croissance Démographique</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p>Une Europe en pleine croissance démographique</p>
 <ul>
 <li><p>Forte augmentation de la population européenne à la fin du XIXe siècle et au début du XXe.</p></li>
 <li><p>Amélioration des conditions sanitaires et taux de natalité élevés.</p></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.kartable.fr/uploads/finalImages/final_59ccc947d201a4.82892989.png"><img data-src="figures/07_transition_démographique.png" class="quarto-figure quarto-figure-center" width="500" alt="Transition démographique"></a></p>
+</figure>
+</div>
+<figcaption>Transition démographique</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="exode-urbain" class="slide level2">
+<h2>Exode urbain</h2>
+<div class="r-fit-text">
+<ul>
+<li><p>Royaume-Uni: fin du 18e siècle</p></li>
+<li><p>France: milieux du 19 siècle, début 20e siècle</p></li>
+<li><p>Allemagne: fin du 19e siècle</p></li>
+<li><p>Italie: fin du 19e siècle</p></li>
+<li><p>Espagne: milieux du 20e siècle</p></li>
+<li><p>Portugal: milieux du 20e siècle</p></li>
+</ul>
+</div>
+</section>
+<section id="exode-urbain-royaume-uni" class="slide level2">
+<h2>Exode Urbain: Royaume-Uni</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://lrhmatters.com/wp-content/uploads/2022/01/Population-growth-urbanisation-England-1600-1950-1.jpg"><img data-src="figures/03_UK_urban_rural_population.jpg" class="quarto-figure quarto-figure-center" alt="Royaume-Uni: population Rurale et Urbaine 1600-1950"></a></p>
+</figure>
+</div>
+<figcaption>Royaume-Uni: population Rurale et Urbaine 1600-1950</figcaption>
+</figure>
+</div>
+</section>
+<section id="exode-urbain-france" class="slide level2">
+<h2>Exode Urbain: France</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.observatoire-des-territoires.gouv.fr/kiosque/2021-2022-rapport-cahier-1-demo-chap-01-03-dune-france-rurale-une-france-urbaine-les"><img data-src="figures/04_France_population_rurale_urbaine.jpg" class="quarto-figure quarto-figure-center" alt="France: population rurale et urbaine 1850-1968"></a></p>
+</figure>
+</div>
+<figcaption>France: population rurale et urbaine 1850-1968</figcaption>
+</figure>
+</div>
 </section>
 <section id="émigration-vers-lamérique" class="slide level2">
 <h2>Émigration vers l’Amérique</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
 <p>Massives migrations vers le Nouveau Monde</p>
 <ul>
 <li><p>Départ de millions d’Européens vers les États-Unis.</p></li>
-<li><p>Migration interne et européenne vers zones industrielles du sud.</p></li>
+<li><p>Migration économique</p></li>
 </ul>
-<p>…Statistiques montrant le nombre de migrants par années.</p>
+</div><div class="column center" style="width:65%;">
+<div class="cell">
+<div class="cell-output-display">
+<div class="echarts4r html-widget html-fill-item" id="htmlwidget-1fc20adf292efb99ae30" style="width:100%;height:500px;"></div>
+<script type="application/json" data-for="htmlwidget-1fc20adf292efb99ae30">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"yAxis":[{"show":true}],"xAxis":[{"data":["1819-1840","1840-1860"],"type":"category","boundaryGap":true}],"legend":{"data":["nombre"]},"series":[{"data":[{"value":["1819-1840"," 743000"]},{"value":["1840-1860","4000000"]}],"name":"nombre","type":"bar","yAxisIndex":0,"xAxisIndex":0,"coordinateSystem":"cartesian2d"}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div></div>
 </section>
-<section id="expansion-coloniale-européenne" class="slide level2">
-<h2>Expansion Coloniale Européenne</h2>
-<p>Impact de la colonisation sur la mobilité humaine</p>
+<section id="ruée-vers-lor-1848" class="slide level2">
+<h2>Ruée vers l’or (1848)</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
 <ul>
-<li><p>Flux migratoires hors d’Europe pour les colonies.</p></li>
-<li><p>Faible impact entrant en Europe, prédominance des sorties européennes.</p></li>
+<li>Bien qu’il existe des régulation, il n’existe pas encore de loi sur l’immigration.</li>
+<li>Ce n’est qu’en 1882 qu’est voté le premier Immigration Act qui impose une taxe de 0.50$ par immigrant (Natives and strangers : ethnic groups and the building of America).</li>
 </ul>
-<p>…Carte des colonies</p>
+</div><div class="column center" style="width:65%;">
+<div class="cell">
+<div class="cell-output-display">
+<div class="echarts4r html-widget html-fill-item" id="htmlwidget-66c33c0eee76f464b1b0" style="width:100%;height:500px;"></div>
+<script type="application/json" data-for="htmlwidget-66c33c0eee76f464b1b0">{"x":{"theme":"","tl":true,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"baseOption":{"yAxis":[{"show":true}],"timeline":{"data":["1840-1860","1841-1850"],"axisType":"category"},"xAxis":[{"data":["Irlandais","Allemands","Britanniques","Français"],"type":"category","boundaryGap":true}],"legend":{"data":["nombre"]},"series":[{"name":"nombre","type":"bar","yAxisIndex":0,"xAxisIndex":0,"coordinateSystem":"cartesian2d"}]},"options":[{"series":[{"data":[{"value":["Irlandais","781000"]},{"value":["Allemands","434000"]},{"value":["Britanniques","255000"]},{"value":["Français"," 77000"]}]}]},{"series":[{"data":[{"value":["Allemands","951000"]},{"value":["Irlandais","914000"]},{"value":["Britanniques","317000"]},{"value":["Français"," 76000"]}]}]}],"legend":{"data":[null,null]}},"dispose":true},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div></div>
 </section>
-<section id="émergence-des-enclaves-ethniques" class="slide level2">
-<h2>Émergence des Enclaves Ethniques</h2>
-<ul>
-<li><p>Nationalismes conduisant à l’établissement d’enclaves.</p></li>
-<li><p>Tensions internes poussant certains groupes à chercher refuge ailleurs.</p></li>
-</ul>
+<section id="migration-italienne-aux-états-unis" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Migration italienne aux États-Unis</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="r-fit-text">
+<p><strong>Plus grande migration volontaire</strong></p>
+<p>De 1880 à 1914, 13 millions d’Italiens ont quitté le pays dont 4 million pour les États-unis</p>
+</div>
+</div><div class="column center" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png"><img data-src="figures/08_migration_italienne.png" class="quarto-figure quarto-figure-center" alt="Émigration italienne vers les États-Unis, source: hgsempai.fr"></a></p>
+</figure>
+</div>
+<figcaption>Émigration italienne vers les États-Unis, source: hgsempai.fr</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
-<section id="régimes-politiques-et-migration" class="slide level2">
-<h2>Régimes Politiques et Migration</h2>
-<p>Impact des régimes politiques sur la migration</p>
+<section id="migration-italienne-aux-états-unis-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Migration italienne aux États-Unis</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="r-fit-text">
+<p>Motif: Unification (Risorgimento) en 1861 qui a aggravé les conditions économiques</p>
 <ul>
-<li><p>Déportations par des régimes autoritaires.</p></li>
-<li><p>Echanges de membres entre syndicats internationaux.</p></li>
+<li>Troubles politiques et sociaux</li>
+<li>Inégalité entre le Nord industrielisé et le Sud agricole</li>
+<li>Tensions fiscales et douanières</li>
+<li>Epuisement des sols</li>
 </ul>
+</div>
+</div><div class="column center" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png"><img data-src="figures/08_migration_italienne.png" class="quarto-figure quarto-figure-center" alt="Émigration italienne vers les États-Unis, source: hgsempai.fr"></a></p>
+</figure>
+</div>
+<figcaption>Émigration italienne vers les États-Unis, source: hgsempai.fr</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="migration-italienne-aux-états-unis-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Migration italienne aux États-Unis</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="r-fit-text">
+<p><strong>“Oiseau de passage” (immigrés temporaires)</strong>: 49% des migrants retournent dans leur pays d’origine entre 1905 et 1920 (Emigrant Nation: The making of Italy abroad)</p>
+</div>
+</div><div class="column center" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.hgsempai.fr/atelier/wp-content/uploads/2017/04/emigra_ita-1024x696.png"><img data-src="figures/08_migration_italienne.png" class="quarto-figure quarto-figure-center" alt="Émigration italienne vers les États-Unis, source: hgsempai.fr"></a></p>
+</figure>
+</div>
+<figcaption>Émigration italienne vers les États-Unis, source: hgsempai.fr</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="expansion-coloniale-européenne-au-xixe-siècle" class="slide level2">
+<h2>Expansion Coloniale Européenne au XIXe siècle</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.kartable.fr/uploads/finalImages/final_590341646b7e70.61570288.png?1504278562"><img data-src="figures/09_carte_coloniale_19e.png" class="quarto-figure quarto-figure-center" width="800" alt="Carte des colonies au XIXe siècle, source: kartable.fr"></a></p>
+</figure>
+</div>
+<figcaption>Carte des colonies au XIXe siècle, source: kartable.fr</figcaption>
+</figure>
+</div>
 </section></section>
 <section>
 <section id="première-guerre-mondiale-et-entre-deux-guerres" class="title-slide slide level1 center" data-background="#d3d3d3">
 <h1>Première Guerre Mondiale et entre deux guerres</h1>
 
 </section>
-<section id="facteurs-précurseurs-de-la-première-guerre-mondiale-p.g.m." class="slide level2">
-<h2>Facteurs précurseurs de la Première Guerre Mondiale (P.G.M.)</h2>
+<section id="nationalisme-et-tensions-internationales" class="slide level2">
+<h2>Nationalisme et Tensions Internationales</h2>
+<ul>
+<li>Montée des rivalités entre grandes puissances.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.kartable.fr/uploads/finalImages/final_57067d7c7e1233.76032976.png?1466697618"><img data-src="figures/05_alliances_avant_1914.png" class="quarto-figure quarto-figure-center" width="700" alt="Territoires occupés, source: Kartable.fr"></a></p>
+</figure>
+</div>
+<figcaption>Territoires occupés, source: Kartable.fr</figcaption>
+</figure>
+</div>
+</section>
+<section id="jeu-dalliance" class="slide level2">
+<h2>Jeu d’alliance</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Oy97lZp0lo4w659i-71yGAHaEa%26pid%3DApi&amp;f=1&amp;ipt=05fb4290fd4e96252e58a028ca0d749ecf5b4dde186b073ad048b06b1bab30a6&amp;ipo=images"><img data-src="figures/06_jeu_alliance.jpg" class="quarto-figure quarto-figure-center" alt="Jeu d’alliance en Europe, source: lisasultan.e-monsite.com"></a></p>
+</figure>
+</div>
+<figcaption>Jeu d’alliance en Europe, source: lisasultan.e-monsite.com</figcaption>
+</figure>
+</div>
+</section>
+<section id="facteurs-précurseurs-de-la-première-guerre-mondiale" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Facteurs précurseurs de la Première Guerre Mondiale</h2>
 <ul>
 <li><strong>Industrialisation et modernisation économique</strong>:
 <ul>
@@ -509,74 +699,20 @@ Hategekimana Vestin
 </ul></li>
 </ul>
 </section>
-<section id="système-diplomatique-complexé" class="slide level2">
-<h2>Système diplomatique complexé</h2>
+<section id="facteurs-précurseurs-de-la-première-guerre-mondiale-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Facteurs précurseurs de la Première Guerre Mondiale</h2>
 <ul>
-<li>Formation de blocs alliés (Triple Alliance, Triple Entente)</li>
-<li>Augmentation des tensions internationales</li>
-</ul>
-</section>
-<section id="événements-précédant-la-p.g.m." class="slide level2">
-<h2>Événements précédant la P.G.M.</h2>
+<li><strong>Crise de Bosnie en 1908-1909:</strong>
 <ul>
-<li>Crise de Bosnie en 1908-1909:
-<ul>
+<li>La Serbie souhaite unir les peuples slaves</li>
+<li>Mais l’Empire Autro-Hongrois annexe la Bosnie-Herzégovine</li>
 <li>Tensions croissantes entre l’Autriche-Hongrie, la Russie et les Balkans</li>
 </ul></li>
-</ul>
-</section>
-<section id="première-guerre-balkanique-1912-1913" class="slide level2">
-<h2>Première Guerre Balkanique (1912-1913)</h2>
+<li><strong>Assassinat de François-Ferdinand en 1914 par un nationaliste Serbe</strong>
 <ul>
-<li>Conflits régionaux (Turquie, Serbie, Bulgarie, Grèce, Monténégro)</li>
-<li>Déplacement forcé de populations civiles</li>
-</ul>
-</section>
-<section id="impact-des-événements-sur-les-mouvements-migratoires" class="slide level2">
-<h2>Impact des événements sur les mouvements migratoires</h2>
-<ul>
-<li><strong>Industrialisation et urbanisation</strong>:
-<ul>
-<li>Attraction vers les zones urbaines et industrielles</li>
-<li>Déplacements massifs dans certaines régions (Europe centrale)</li>
-</ul></li>
-<li><strong>Tensions nationalistes</strong>:
-<ul>
-<li>Déplacement forcé de populations ethniques</li>
-</ul></li>
-</ul>
-</section>
-<section id="établissement-dempires-coloniaux" class="slide level2">
-<h2>Établissement d’empires coloniaux</h2>
-<ul>
-<li>Flux migratoires entre métropoles et colonies</li>
-</ul>
-</section>
-<section id="industrialisation-et-révolution-technologique-détails" class="slide level2">
-<h2>Industrialisation et révolution technologique (détails)</h2>
-<ul>
-<li>Révolution industrielle dans l’Europe occidentale</li>
-<li>Travailleurs saisonniers entre pays d’Europe centrale et méridionale</li>
-</ul>
-</section>
-<section id="nationalismes-croissants-exemples-supplémentaires" class="slide level2">
-<h2>Nationalismes croissants (exemples supplémentaires)</h2>
-<ul>
-<li>Exemples : nationalisme serbe, irlandais, polonais, etc.</li>
-</ul>
-</section>
-<section id="système-diplomatique-complexé-détails" class="slide level2">
-<h2>Système diplomatique complexé (détails)</h2>
-<ul>
-<li><strong>Triple Alliance</strong> : Allemagne, Autriche-Hongrie, Italie</li>
-<li><strong>Triple Entente</strong> : Angleterre, France, Russie</li>
-</ul>
-</section>
-<section id="événements-précédant-la-p.g.m.-détails" class="slide level2">
-<h2>Événements précédant la P.G.M. (détails)</h2>
-<ul>
-<li>Assassinat de François-Ferdinand en 1914</li>
+<li>L’Empire Austro-Hongrois accuse la Serbie d’avoir organiser l’attentat</li>
 <li>Déclenchement immédiat de la Première Guerre Mondiale</li>
+</ul></li>
 </ul>
 </section>
 <section id="entre-deux-guerres-introduction" class="slide level2">
@@ -1276,6 +1412,82 @@ Hategekimana Vestin
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
