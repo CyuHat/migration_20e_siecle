@@ -7,10 +7,14 @@ authors:
 subtitle: https://cyuhat.github.io/migration_20e_siecle/
 format: 
   clean-revealjs:
+    chalkboard: true
+    incremental: true  
     transition: slide
     logo: wedata_logo.png
   pptx: default
   docx: default
+execute:
+  cache: true
 nocite: |
   @*
 ---
@@ -39,7 +43,7 @@ pacman::p_load(
 
 -   Migration et mobilité en Suisse en temps de crise
 
--   Passionné des sciences des données (computational social sciences)
+-   Passionné des sciences des données et la programmation (computational social sciences)
 
 ## WeData
 
@@ -55,19 +59,23 @@ pacman::p_load(
 
 ## Objectifs de la présentation
 
-1.  Comprendre l'aspect continu et permanent des migrations.
-2.  Analyser les principales périodes migratoires à travers les données chiffrées.
-3.  Examiner les causes et les effets des mouvements de population.
+::: {r-fit-text}
+1.  Il existe plusieurs types de migration
+2.  Les humains ont toujours été en mouvement
+3.  La migration crée des connexions et des dépendances
+4.  Analyser les principales périodes migratoires à travers les données chiffrées.
+5.  Examiner les causes et les effets des mouvements de population.
+:::
 
 ## Qu'est-ce que la migration?
 
 > Un migrant à long terme est une personne qui vit en dehors de son pays d'origine pendant au moins 12 mois.
 
-### *Département des Affaires Économiques et Sociales des Nations Unies*
+### *Département des Affaires économiques et sociales des Nations Unies*
 
-## Dans cette présentation
+## Dans cette présentation...
 
-::: r-fit-text
+::: {r-fit-text}
 -   Migration liée à la colonisation
 -   Migration forcée
 -   Migration ethnique
@@ -78,12 +86,11 @@ pacman::p_load(
 
 ## Plan
 
-::: r-fit-text
+::: {r-fit-text}
 1.  Début du 20ème siècle et ses impacts sur l'histoire migratoire
-2.  Première Guerre Mondiale et entre deux guerres
-3.  Seconde Guerre Mondiale et période d'après guerre
-4.  Fin du XXe siècle à l'époque contemporaine
-5.  Conclusion
+2.  Première Guerre mondiale (1914-1918) et entre-deux-guerres (1918-1939)
+3.  Seconde Guerre mondiale (1939-1945) et période d'après-guerre (1945-...)
+4.  Conclusion
 :::
 
 # Début du 20ème siècle et ses impacts sur l'histoire migratoire {data-background="#f5f5dc"}
@@ -94,11 +101,11 @@ Fin du 19ème siècle au début du 20ème siècle
 
 -   Industrialisation et révolution technologique
 -   Croissance démographique
--   Éxode rural
+-   Exode rural
 -   Émigration vers l'Amérique
--   Expansion Coloniale Européenne
+-   Expansion coloniale européenne
 
-## Révolution Industrielle et Urbanisation
+## Révolution industrielle et Urbanisation
 
 La révolution industrielle entraîne une urbanisation massive
 
@@ -106,13 +113,13 @@ La révolution industrielle entraîne une urbanisation massive
 
 -   Migration vers les zones industrielles (ex : Manchester, Londres, Berlin, Paris).
 
-[![Industrie d'une banlieue Parisienne, source: histoire19.hypotheses.org](figures/01_industrie_banlieue_parisienne.jpg){fig-align="center" width="430"}](https://histoire19.hypotheses.org/899)
+[![Industrie d'une banlieue parisienne, source: histoire19.hypotheses.org](figures/01_industrie_banlieue_parisienne.jpg){fig-align="center" width="430"}](https://histoire19.hypotheses.org/899)
 
 ## Industrialisation inégale
 
 [![Industrialisation en Europe XIXe et XXe siècle, source: livrescolaire.fr](figures/02_Industrialisation_en_europe_xix_xx.png){fig-align="center"}](https://img.lelivrescolaire.fr/histoire-4e-2016/les-societes-a-l-age-industriel/l-europe-au-xixe-siecle/3000.h.4.4.c1.1..png)
 
-## Croissance Démographique
+## Croissance démographique
 
 ::::: columns
 ::: {.column width="50%"}
@@ -128,27 +135,33 @@ Une Europe en pleine croissance démographique
 :::
 :::::
 
-## Exode urbain
+## Exode rural
 
-::: r-fit-text
+::: {r-fit-text}
+**Pionnier**
+
 -   **Royaume-Uni**: fin du 18e siècle
 
--   **France**: milieux du 19 siècle, début 20e siècle
+**Suivants**
+
+-   **France**: milieux du 19e siècle, début 20e siècle
 
 -   **Allemagne**: fin du 19e siècle
 
 -   **Italie**: fin du 19e siècle
+
+**Finalement**
 
 -   **Espagne**: milieux du 20e siècle
 
 -   **Portugal**: milieux du 20e siècle
 :::
 
-## Exode Urbain: Royaume-Uni
+## Exode rural: Royaume-Uni
 
 [![Royaume-Uni: population Rurale et Urbaine 1600-1950](figures/03_UK_urban_rural_population.jpg){fig-align="center"}](https://lrhmatters.com/wp-content/uploads/2022/01/Population-growth-urbanisation-England-1600-1950-1.jpg)
 
-## Exode Urbain: France
+## Exode rural: France
 
 [![France: population rurale et urbaine 1850-1968](figures/04_France_population_rurale_urbaine.jpg){fig-align="center"}](https://www.observatoire-des-territoires.gouv.fr/kiosque/2021-2022-rapport-cahier-1-demo-chap-01-03-dune-france-rurale-une-france-urbaine-les)
 
@@ -156,7 +169,7 @@ Une Europe en pleine croissance démographique
 
 ::::: columns
 ::: {.column width="35%"}
-**Migrations massives vers le nouveau monde**
+**Migrations massives vers le Nouveau Monde**
 
 -   Départ de millions d’Européens vers les États-Unis.
 
@@ -181,8 +194,8 @@ tibble(
 
 ::::: columns
 ::: {.column width="35%"}
--   Bien qu'il existe des régulation, il n'existe pas encore de loi sur l'immigration.
--   Ce n'est qu'en 1882 qu'est voté le premier Immigration Act qui impose une taxe de 0.50\$ par immigrant (Natives and strangers : ethnic groups and the building of America).
+-   Bien qu'il existe des régulations, il n'existe pas encore de loi sur l'immigration.
+-   Ce n'est qu'en 1882 qu'est votée la première Immigration Act qui impose une taxe de 0.50\$ par immigrant (*Natives and strangers : ethnic groups and the building of America*).
 :::
 
 ::: {.column .center width="65%"}
@@ -204,10 +217,10 @@ tibble(
 
 :::::: columns
 :::: {.column width="40%"}
-::: r-fit-text
+::: {r-fit-text}
 **Plus grande migration volontaire**
 
-De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour les États-unis
+De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour les États-Unis
 :::
 ::::
 
@@ -220,13 +233,13 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
 
 :::::: columns
 :::: {.column width="40%"}
-::: r-fit-text
+::: {r-fit-text}
 **Motif**: Unification (Risorgimento) en 1861 qui a aggravé les conditions économiques
 
 -   Troubles politiques et sociaux
--   Inégalité entre le Nord industrielisé et le Sud agricole
+-   Inégalité entre le nord industrialisé et le sud agricole
 -   Tensions fiscales et douanières
--   Epuisement des sols
+-   Épuisement des sols
 :::
 ::::
 
@@ -239,8 +252,8 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
 
 :::::: columns
 :::: {.column width="40%"}
-::: r-fit-text
-**"Oiseau de passage" (immigrés temporaires)**: 49% des migrants retournent dans leur pays d'origine entre 1905 et 1920 (Emigrant Nation: The making of Italy abroad)
+::: {r-fit-text}
+**"Oiseau de passage" (immigrés temporaires)**: 49% des migrants retournent dans leur pays d'origine entre 1905 et 1920 (*Émigrant Nation: The making of Italy abroad*)
 :::
 ::::
 
@@ -253,7 +266,7 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
 
 :::::: columns
 :::: {.column width="10%"}
-::: r-fit-text
+::: {r-fit-text}
 :::
 ::::
 
@@ -262,11 +275,11 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
 :::
 ::::::
 
-## Expansion Coloniale Européenne au XIXe siècle
+## Expansion coloniale européenne au XIXe siècle
 
 [![Carte des colonies au XIXe siècle, source: kartable.fr](figures/09_carte_coloniale_19e.png){fig-align="center" width="800"}](https://media.kartable.fr/uploads/finalImages/final_590341646b7e70.61570288.png?1504278562)
 
-# Première Guerre Mondiale et entre deux guerres {data-background="#d3d3d3"}
+# Première Guerre mondiale et entre-deux-guerres {data-background="#d3d3d3"}
 
 ## Nationalisme et Tensions Internationales
 
@@ -274,7 +287,7 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
 
 [![Jeu d'alliance en Europe, source: lisasultan.e-monsite.com](figures/06_jeu_alliance.jpg){fig-align="center"}](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Oy97lZp0lo4w659i-71yGAHaEa%26pid%3DApi&f=1&ipt=05fb4290fd4e96252e58a028ca0d749ecf5b4dde186b073ad048b06b1bab30a6&ipo=images)
 
-## Facteurs précurseurs de la Première Guerre Mondiale {auto-animate="true"}
+## Facteurs précurseurs de la Première Guerre mondiale {auto-animate="true"}
 
 -   **Industrialisation et modernisation économique**:
     -   Développement rapide des transports (chemin de fer, navires à vapeur)
@@ -283,17 +296,17 @@ De 1880 à 1914, 13 millions d'Italiens ont quitté le pays dont 4 million pour 
     -   Aspiration à l'autonomie nationale dans diverses régions
     -   Exemples : nationalisme serbe, irlandais, polonais
 
-## Facteurs précurseurs de la Première Guerre Mondiale {auto-animate="true"}
+## Facteurs précurseurs de la Première Guerre mondiale {auto-animate="true"}
 
 -   **Crise de Bosnie en 1908-1909:**
     -   La Serbie souhaite unir les peuples slaves
-    -   Mais l'Empire Autro-Hongrois annexe la Bosnie-Herzégovine
+    -   Mais l'Empire Austro-Hongrois annexe la Bosnie-Herzégovine
     -   Tensions croissantes entre l'Autriche-Hongrie, la Russie et les Balkans
--   **Assassinat de François-Ferdinand en 1914 par un nationaliste Serbe**
-    -   L'Empire Austro-Hongrois accuse la Serbie d'avoir organiser l'attentat
-    -   Déclenchement immédiat de la Première Guerre Mondiale
+-   **Assassinat de François-Ferdinand en 1914 par un nationaliste serbe**
+    -   L'Empire austro-hongrois accuse la Serbie d'avoir organisé l'attentat
+    -   Déclenchement immédiat de la Première Guerre mondiale
 
-## Morts durant la première guerre mondiale
+## Morts durant la Première Guerre mondiale
 
 [![source: pinterest.com](figures/10_morts_première_guerre_mondiale.jpg){fig-align="center" width="600"}](https://i.pinimg.com/originals/04/be/2f/04be2fa2f4d76e28c196a0766011db1f.jpg)
 
@@ -331,6 +344,7 @@ obj <-
   gt_plt_bar_pct(proportion_de_pertes_civiles_et_militaires,
                  fill = "red",
                  background = "lightcoral", 
+                 labels = TRUE,
                  width = 120) %>% 
   gt_plt_bar(pertes_totales, keep_column = TRUE, color = "tomato") %>% 
   cols_width(4 ~ px(125)) %>% 
@@ -350,19 +364,29 @@ obj %>%
 
 *Source: fr-academic.com Pertes*
 
-## On estime le nombre de déplacés forcés à 10 ou 12 Millions durant la Première Guerre Mondiale
+**Mort: \~18 Millions de personnes**
 
-### ref: Dictionnaire de la Grande guerre 1914-1918
+## Les colonies dans la guerre {.scrollable}
 
-[![Accueil en France des réfugiés Belges](figures/11_Première_guerre_mondiale_réfugiés_belges.jpg){fig-align="center"}](https://www.retronews.fr/sites/default/files/styles/rn_large/public/refugees_from_belgium_in_paris_1914_loc.jpg?itok=tWcibwL7&c=dda085c0904c04f891b77200de763b0f)
+**France**: \~800'000 hommes des colonies sont envoyés combattre en Europe (Indochinois, Africains, Canaques et Polynésiens)
 
-## Attaque Allemande
+**Royaume-Uni**: \~2.7 millions d'hommes venant des colonies et des dominion sont envoyé combattre en Europe
 
-Contournement de la France par la Bélgique et le Luxembourg en violant leur neutralité.
+[![Source: black-feelings.com](figures/34_tirailleur_sénégalais.jpg){fig-align="center"}](http://www.black-feelings.com/typo3temp/_processed_/csm_union080820aca02_6551c7df94.jpg)
+
+## On estime le nombre de déplacés forcés à 10 ou 12 millions durant la Première Guerre mondiale {.scrollable}
+
+### ref: Dictionnaire de la Grande Guerre 1914-1918
+
+[![Accueil en France des réfugiés belges](figures/11_Première_guerre_mondiale_réfugiés_belges.jpg){fig-align="center"}](https://www.retronews.fr/sites/default/files/styles/rn_large/public/refugees_from_belgium_in_paris_1914_loc.jpg?itok=tWcibwL7&c=dda085c0904c04f891b77200de763b0f)
+
+## Attaque allemande
+
+Contournement de la France par la Belgique et le Luxembourg en violant leur neutralité.
 
 [![Source: YouTube \@HistGeoOfficiel](figures/12_contournement_allemand.png){fig-align="center" width="800"}](https://www.youtube.com/watch?v=5B0pE1eCxGU&list=WL&index=71&t=122s)
 
-## Réfugiés Belges et Français {.scrollable}
+## Réfugiés belges et français {.scrollable}
 
 ```{r}
 read_csv("data/refugies_pgm_be_fr.csv") %>% 
@@ -372,40 +396,36 @@ read_csv("data/refugies_pgm_be_fr.csv") %>%
 
 ## Besoin des réfugiés
 
--   Besoin en nourriture et abri
--   Les enfants cherchaient désespérément la confirmation de l'existence ou du décès de leurs parents.
--   Les adultes souhaitaient être réunis avec des enfants qui avaient été perdus de vue.
--   Les réfugiés recherchaient des conseils juridiques concernant leur statut et leurs droits à l'aide humanitaire.
--   De nombreux réfugiés souhaitaient avoir la possibilité de travailler.
--   Les enfants avaient besoin d'être scolarisés.
+-   Besoin en **nourriture et abri**
+-   Les **adultes et enfants** cherchaient désespérément la confirmation de **l'existence ou du décès** de leurs proches.
+-   Les réfugiés recherchaient des **conseils juridiques** concernant **leur statut et leurs droits** à l'aide humanitaire.
+-   De nombreux réfugiés souhaitaient avoir la possibilité de **travailler**.
+-   Les enfants avaient besoin d'être **scolarisés**.
 
-## Accueil et intégration des Réfugiés Belges en Hollande (1914-1918)
+## Accueil et intégration des Réfugiés belges en Hollande (1914-1918)
 
--   Les réfugiés se sont improvisés des abris dans des serres, sur des barges, et dans divers logements temporaires à Maastricht, Amsterdam, Groningen.
--   Autorités locales ont érigé des maisons préfabriquées bon marché ("maisons démontables") pour offrir un abri plus durable.
--   Gouvernement néerlandais a créé des camps hors les villes (Gouda, Nunspeet, Bergen op Zoom) pour calmer la tension locale, désignés comme "villages belges" plutôt que "camps de concentration".
--   Mise en place d'un régime strict avec des appels de présence réguliers et une attention particulière portée à la santé et l'hygiène.
--   Réfugiés ont été obligés de travailler, notamment dans la fabrication de jouets et d’articles ménagers.
+-   Les **réfugiés se sont improvisé des abris** dans des serres, sur des barges, et dans divers logements temporaires à Maastricht, Amsterdam, Groningen.
+-   **Autorités locales** ont érigé des **maisons préfabriquées bon marché** ("maisons démontables") pour offrir un abri plus durable.
+-   Gouvernement a **créé des camps hors les villes** (Gouda, Nunspeet, Bergen op Zoom) pour calmer la tension locale, désignés comme **"villages belges"** plutôt que "camps de concentration".
+-   Mise en place d'un **régime strict avec des appels** de présence réguliers et une attention particulière portée à la **santé et l'hygiène**.
+-   Réfugiés ont été **obligés de travailler**, notamment dans la fabrication de jouets et d’articles ménagers.
 
-## Accueil et Intégration des Réfugiés Belges en France et au Royaume-Uni (1914-1916) {auto-animate="true"}
+## Accueil et Intégration des Réfugiés belges en France et au Royaume-Uni (1914-1916) {auto-animate="true"}
 
 **France**
 
--   Le gouvernement a fourni une aide financière et d'autres types de soutien aux réfugiés, les considérant comme des "victimes méritantes de la guerre".
--   Les organisations caritatives et les prêtres locaux ont également apporté un soutien significatif.
--   Des organisations créées par les réfugiés eux-mêmes (comme le Comité des Réfugiés du Département du Nord) ont joué un rôle crucial dans la recherche d'emploi et de logements pour les réfugiés.
+-   Le gouvernement a fourni une **aide financière** et **d'autres types de soutien aux réfugiés**, les considérant comme des **"victimes méritantes de la guerre"**.
 
-## Accueil et Intégration des Réfugiés Belges en France et au Royaume-Uni (1914-1916) {auto-animate="true"}
+## Accueil et Intégration des Réfugiés belges en France et au Royaume-Uni (1914-1916) {auto-animate="true"}
 
 **Royaume-Uni :**
 
--   La sympathie envers les réfugiés belges a été alimentée par une croyance que ces derniers avaient subi des tourments inimaginables à cause des troupes allemandes.
--   Le terme "Brave Petite Belgique" était couramment utilisé, et la "King Albert's Book" a permis aux dignitaires britanniques de rendre hommage au roi Albert et au peuple belge.
--   Environ 2,500 comités locaux pour les réfugiés avaient été établis d'ici 1916.
--   Le secrétaire du Comité des Réfugiés a loué l'engagement de ces comités et des réfugiés belges à trouver du travail.
--   Des inquiétudes sur le fardeau pour les contribuables britanniques, les sacrifices des soldats britanniques et l'attitude présumée "indécente" des femmes belges ont conduit à une diminution de la sympathie publique d'ici 1916.
+-   La **sympathie envers les réfugiés belges** a été alimentée par une croyance que ces derniers avaient subi des **tourments inimaginables à cause des troupes allemandes**.
+-   Le terme **"Brave petite Belgique"** était couramment utilisé
+-   Environ **2'500 comités locaux pour les réfugiés** avaient été établis d'ici 1916.
+-   Des inquiétudes sur le **fardeau pour les contribuables britanniques**, les **sacrifices des soldats britanniques** et **l'attitude présumée "indécente" des femmes belges** ont conduit à une [**diminution de la sympathie publique**]{style="color: red;"}d'ici 1916.
 
-## Réfugiés Juifs, Italiens et Serbe {.scrollable}
+## Réfugiés juifs, italiens et serbes {.scrollable}
 
 ```{r}
 read_csv("data/refugies_pgm_jw_it.csv") %>% 
@@ -416,34 +436,29 @@ read_csv("data/refugies_pgm_jw_it.csv") %>%
   tab_options(table.font.size = px(28))
 ```
 
-## Accueil et Intégration des Réfugiés Juifs en Autriche-Hongrie (1914-1918) {auto-animate="true"}
+## Accueil et Intégration des Réfugiés juifs en Autriche-Hongrie (1914-1918) {auto-animate="true"}
 
--   Les conditions étaient particulièrement mauvaises pour les réfugiés juifs, dont les besoins religieux et culturels étaient négligés.
--   La majorité des pauvres réfugiés de la shtetl n'avaient pas de moyens financiers indépendants ; trois-quarts des réfugiés juifs en provenance de Galicie manquaient de ressources.
--   La présence des réfugiés a exacerbé les sentiments anti-sémites parmi la population non-juive, qui critiquait souvent leur manque de bonnes manières et leur contribution aux pénuries.
--   Les autorités municipales de Vienne ont créé une administration dédiée pour l'aide aux réfugiés, mais celle-ci a rencontré des obstacles importants.
--   Le gouvernement a transféré certaines responsabilités d'assistance à des organisations caritatives juives, dont la plus importante était l'Alliance israélite de Vienne.
--   Ces organisations ont construit des baraquements et assuré que les réfugiés étaient nourris selon le rituel kosher.
+-   Les conditions étaient **particulièrement mauvaises** pour les réfugiés juifs, dont les besoins religieux et culturels étaient négligés.
+-   La majorité des réfugiés n'avaient **pas de moyens financiers indépendants** ; trois quarts des réfugiés juifs en provenance de Galicie manquaient de ressources.
+-   La présence des réfugiés a **exacerbé les sentiments antisémites** parmi la population non juive, qui critiquait souvent leur **manque de bonnes manières** et leur **contribution aux pénuries**.
+-   Les **autorités municipales de Vienne** ont créé une administration dédiée pour **l'Aide aux réfugiés**, mais celle-ci a rencontré des **obstacles importants**.
 
-## Accueil et Intégration des Réfugiés Juifs en Autriche-Hongrie (1914-1918) {auto-animate="true"}
+## Accueil et Intégration des Réfugiés juifs en Autriche-Hongrie (1914-1918) {auto-animate="true"}
 
--   Sophie Grünfeld, philanthrope juive, a parlé optimistiquement de la rencontre entre les Juifs bourgeois et les pauvres réfugiés.
--   Les divisions sociales restaient aiguës : les Juifs plus fortunés utilisaient leurs contacts à Vienne, tandis que les réfugiés plus pauvres se contentaient d'habitations insatisfaisantes dans des granges ou des écoles.
--   Des ateliers ont été créés pour encourager les jeunes femmes réfugiées à apprendre un métier.
--   Des centres d'apprentissage et des programmes de formation professionnelle ont été mis en place pour aider les hommes à devenir de meilleurs agriculteurs.
--   Les sionistes critiquaient le fait que trop d'attention était accordée aux réfugiés plutôt qu'à encourager l'emigration vers la Palestine.
--   La question complexe de savoir quelles populations étaient responsables des réfugiés en Autriche et dans quelle mesure les autorités hongroises devaient intervenir.
+-   Les **divisions sociales restaient aiguës** : les **Juifs plus fortunés** utilisaient leurs contacts à Vienne, tandis que les **réfugiés plus pauvres** se contentaient d'habitations insatisfaisantes dans des granges ou des écoles.
+-   **Des ateliers** ont été créés pour encourager les **jeunes femmes réfugiées** à **apprendre un métier**.
+-   Des **centres d'apprentissage** et des **programmes de formation professionnelle** ont été mis en place pour aider **les hommes** à devenir de **meilleurs agriculteurs**.
 
-## Génocide Arméniens {auto-animate="true"}
+## Génocide arménien {.scrollable auto-animate="true"}
 
--   Avant la Première Guerre mondiale, les Arméniens étaient un groupe subordonné mais relativement protégé dans l’Empire ottoman.
--   En 1915, des massacres de masse ont commencé après que les autorités ottomanes ont déporté et arrêté des centaines d'intellectuels et de leaders arméniens à Constantinople.
--   Environ 100 000 à 200 000 femmes et enfants arméniennes ont été forcément converties à l'islam et intégrées dans les ménages musulmans.
+-   **Avant la Première Guerre mondiale**, les Arméniens étaient un **groupe subordonné** mais relativement **protégé dans l’Empire ottoman**.
+-   **En 1915, des massacres de masse** ont commencé après que les autorités ottomanes ont **déporté et arrêté des centaines d'intellectuels et de leaders arméniens** à Constantinople.
+-   Environ **100 000 à 200 000 femmes et enfants** arméniennes ont été forcément **converties à l'islam** et intégrées dans les **ménages musulmans**.
 
-## Génocide Arméniens {auto-animate="true"}
+## Génocide arménien (1915-1917) {.scrollable uto-animate="true"}
 
--   Après le génocide, des milliers d'Arméniens se sont dispersés dans divers pays.
--   De nombreux survivants ont trouvé refuge en Union soviétique et ont contribué au développement de la République socialiste soviétique d’Arménie.
+-   **Après le génocide**, des milliers d'Arméniens se sont **dispersés dans divers pays**.
+-   De nombreux survivants ont trouvé refuge en **Union soviétique** et ont contribué au développement de la **République socialiste soviétique d’Arménie**.
 
 ```{r}
 read_csv("data/refugies_pgm_jw_ot.csv") %>% 
@@ -453,20 +468,11 @@ read_csv("data/refugies_pgm_jw_ot.csv") %>%
   tab_options(table.font.size = px(28))
 ```
 
-## Accueil et Intégration des Réfugiés dans le Contexte Russe (1914-1918) {auto-animate="true"}
+## Accueil et Intégration des réfugiés dans le contexte russe (1914-1918) {auto-animate="true"}
 
--   Les réfugiés survivants du front faisaient face à de nombreux problèmes, y compris la recherche d'abris, de nourriture, d'équipement sanitaire et de vêtements neufs.
--   On trouvait des abris temporaires dans les gares ferroviaires, écoles, usines inoccupées, brasseries, hôtels, bains publics, casernes militaires, monastères, synagogues, théâtres, cinémas et cafés.
--   Les autorités locales, les comités épiscopaux et d'autres associations fournissaient des sous-vêtements, chaussures, linge, savon et autres articles.
--   Le tsar Nicolas II a nommé deux plénipotentiaires pour la frontière nord-ouest et sud-ouest qui rendaient compte au ministre de l'Intérieur.
--   La création du Conseil spécial des réfugiés en août 1915, bien qu'elle inclut les autorités municipales et régionales, a également facilité la critique des efforts inadéquats du gouvernement central.
--   L'ampleur et l'hétérogénéité de la population multinationale de réfugiés dans l'Empire russe et les insuffisances des initiatives officielles ont paradoxalement conféré certains avantages aux réfugiés.
-
-## Accueil et Intégration des Réfugiés dans le Contexte Russe (1914-1918) {auto-animate="true"}
-
--   Des organisations patriotiques se sont précipitées pour aider, y compris la Société d'aide aux victimes de guerre en Russie du Sud et la Société biélorusse d'aide aux victimes de guerre à Vilno.
--   Ces initiatives ont tiré parti d'une politique émergente de nationalité, dans laquelle les élites patriotiques (lettone, polonaise, juive et autres) commençaient à considérer les réfugiés comme des membres d'une communauté nationale cohérente mais dispersée.
--   Les représentants nationalistes ont improvisé rapidement des écoles, orphelinats, clubs, ateliers, cantines et casernes avec le financement de divers comités nationaux.
+-   **Diversité**: Russes, Polonais, Juifs, Arméniens, etc.
+-   On trouvait des **abris temporaires** dans les gares ferroviaires, écoles, usines inoccupées, brasseries, hôtels, bains publics, casernes militaires, monastères, synagogues, théâtres, cinémas et cafés.
+-   Les autorités locales, les comités épiscopaux et d'autres associations fournissaient des sous-vêtements, chaussures, linges, savons et autres articles.
 
 ## Les réfugiés au lendemain de la Première Guerre mondiale
 
@@ -474,7 +480,7 @@ read_csv("data/refugies_pgm_jw_ot.csv") %>%
 
 ## Redéfinition des frontières
 
-L'effondrement de vastes empires comme l'Empire austro-hongrois et l'Empire ottoman a entraîné la création d'états-nations.
+L'effondrement de vastes empires comme l'Empire austro-hongrois et l'Empire ottoman a entraîné la création d'États-nations.
 
 [![Territoires occupés, source: Kartable.fr](figures/05_alliances_avant_1914.png){fig-align="center" width="700"}](https://media.kartable.fr/uploads/finalImages/final_57067d7c7e1233.76032976.png?1466697618)
 
@@ -486,17 +492,17 @@ L'effondrement de vastes empires comme l'Empire austro-hongrois et l'Empire otto
 
 ## Situation Démographique Post-Guerre
 
--   Disparition massive d'hommes en âge de travaille
+-   Disparition massive d'hommes en âge de travail
 -   Contexte du besoin de reconstruction et de croissance économique
 -   Pénurie de main-d’œuvre
 
-## Immigrations Économiques {.scrollable auto-animate="true"}
+## Immigrations économiques {.scrollable auto-animate="true"}
 
 Certains pays ont conclu des accords pour encourager l'immigration.
 
 -   La France a recruté des travailleurs italiens, polonais et tchécoslovaques dans les années 1920.
 
-## Immigrations Économiques {.scrollable auto-animate="true"}
+## Immigrations économiques {.scrollable auto-animate="true"}
 
 ```{r}
 read_csv("data/resume_pgm.csv") %>% 
@@ -506,32 +512,39 @@ read_csv("data/resume_pgm.csv") %>%
   tab_options(table.font.size = px(28))
 ```
 
-## Migration Forcée en Italie
+## Migration forcée
+
+-   Fascisme Italien
+-   Nazisme
+-   Guerre civile d'Espagne
+-   Déportation massive en URSS
+
+## Montée du fascisme: Migration forcée en Italie (1922) {.scrollable}
 
 Prise du pouvoir par Benito Mussolini le 31 octobre 1922
 
 -   Vers 1926, les militants antifascistes, communistes, et anarchistes ont été contraints de quitter l'Italie.
 -   Au fil du temps, ce sont également des socialistes, syndicalistes, et dirigeants politiques qui ont émigré en raison des persécutions fascistes.
 
-[![source: superprof.fr](figures/17_benito_mussolini.jpg){fig-align="center"}](https://www.superprof.fr/ressources/wp-content/uploads/2009/04/mussolini-politique-italienne.jpg)
+[![source: superprof.fr](figures/17_benito_mussolini.jpg){fig-align="center"}](https://www.superprof.fr/ressources/wp-content/uploads/2009/04/mussolini-politique-italienne.jpg) *Prononce un discours à Milan en 1930*
 
-## Montée du Nazisme
+## Montée du Nazisme (1933)
 
--   L'entrée au pouvoir d'Adolf Hitler en 1933 a entraîné le départ d’une partie de l’élite intellectuelle juive et allemande vers des pays européens comme la France, la Suisse, et l'Angleterre.
--   Des milliers de Juifs allemands et autrichiens ont été forcés à quitter le pays pour échapper à la persécution raciale.
+-   **L'entrée au pouvoir d'Adolf Hitler en 1933** a entraîné le départ d’une partie de **l’élite intellectuelle juive et allemande** vers des pays européens comme la France, la Suisse, et l'Angleterre.
+-   Des milliers de Juifs allemands et autrichiens ont été forcés à quitter le pays pour échapper à la **persécution raciale**.
 
-## Guerre d'Espagne et Migration Forcée
+## Guerre d'Espagne et migration forcée (1936-1939) {.scrollable}
 
-Coup d'´état militaire le 17 juillet, le général Francisco Franco est à la tête d'une insurrection militaire et tente de prendre le pouvoir.
+**Coup d'État militaire le 17 juillet**, le général Francisco Franco est à la tête d'une insurrection militaire et tente de prendre le pouvoir.
 
-La guerre civile espagnole (1936-1939) a entraîné une vague de réfugiés, notamment des républicains qui ont fui le régime franquiste. **Destinations** : Mexique, Chili, France, Cuba, Uruguay.
+La **guerre civile espagnole (1936-1939)** a entraîné une vague de réfugiés, notamment des républicains qui ont fui le régime franquiste. **Destinations** : Mexique, Chili, France, Cuba, Uruguay.
 
 [![source: ibtimes.co.uk](figures/16_guerre_civile_espagnol.jpg){fig-align="center"}](https://d.ibtimes.co.uk/en/full/1625229/spanish-civil-war.jpg?w=400)
 
-## Déportations Massives en Union Soviétique
+## Déportations massives en Union soviétique {.scrollable}
 
 -   Entre 1936 et 1952, près de **3 millions de personnes** ont été déportées vers la Sibérie centrale ou orientale.
--   Ces déportés représentaient plus de vingt nationalités différentes, dont les Allemands de Volga, Kalmouks, Tchétchènes, Ingouches, Karatchaïs, Balkars, et Tatars de Crimée.
+-   Ces déportés représentaient plus de vingt nationalités différentes, dont les Allemands de Volga, kalmouks, Tchétchènes, Ingouches, Karatchaïs, Balkars, et Tatars de Crimée.
 
 [![source: pdfprof.com](figures/18_gulags.jpg){fig-align="center"}](http://www.hgsempai.fr/atelier/wp-content/uploads/2012/11/81179714.jpg)
 
@@ -546,80 +559,93 @@ read_csv("data/resume_pgm.csv") %>%
   tab_options(table.font.size = px(28))
 ```
 
-# Seconde Guerre Mondiale et Période post-guerre et les migrations Massives (1939 – 1970) {data-background="#f0fff0"}
+# Seconde Guerre mondiale et Période post-guerre et les migrations massives (1939 – 1970) {data-background="#f0fff0"}
 
-## **Migrations Forcées pendant la Seconde Guerre Mondiale (1939-1945)**
+## Cause de la guerre
 
-*La Seconde Guerre mondiale a engendré des déplacements massifs de populations dans le monde entier, principalement dus à l'occupation territoriale, les persécutions et la guerre civile.*
+-   **Grande dépression**: Krach de Wall-Street (1929) et augmentation du chômage
 
-*La Seconde Guerre mondiale a eu un impact dévastateur sur les mouvements de population. Ces migrations forcées ont non seulement causé des pertes de vie, mais elles ont aussi transformé la composition démographique dans plusieurs régions du monde.*
+-   **Mise en place de régime autoritaires**: Italie fasciste, Allemagne nazie, Union soviétique et l'Espagne franquiste
 
-## Déportations Juives (Holocauste)
+-   **Annexions allemandes**: Autriche et l'oueste de la Tchékoslovaquie
+
+-   **Début de la guerre**: Annexion de la Pologne par l'Allemagne
+
+## **Migrations forcées pendant la Seconde Guerre mondiale (1939-1945)**
+
+*La Seconde Guerre mondiale a engendré des **déplacements massifs de populations dans le monde entier**, principalement dus à l'occupation territoriale, les persécutions et la guerre civile.*
+
+*La Seconde Guerre mondiale a eu un impact dévastateur sur les mouvements de population. Ces migrations forcées ont non seulement causé des **pertes de vie**, mais elles ont aussi transformé la **composition démographique** dans plusieurs régions du monde.*
+
+## Déportations juives (Holocauste) {.scrollable auto-animate="true"}
 
 -   **Déportation massive** : Plus de 6 millions de juifs ont été déportés vers des camps d'extermination.
 -   **Concentration** : Les nazis ont rassemblé les juifs dans des ghettos et des camps avant leur transport.
 
 [![source: holocaust encyclopedia](figures/14_holocaust_camp_de_concentration.jpg){fig-align="center"}](https://www.google.com/url?sa=i&url=https%3A%2F%2Fencyclopedia.ushmm.org%2Fcontent%2Fen%2Farticle%2Fconcentration-camps-1939-42&psig=AOvVaw0ArAQubhXKR31UEAJ-ZXUo&ust=1738969036476000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjfg9OSsIsDFQAAAAAdAAAAABAE)
 
-## Nettoyage Ethnique en Europe Centrale et Orientale
+## Déportations juives (Holocauste) {.scrollable auto-animate="true"}
 
 -   **Régions touchées** : Pologne, Biélorussie, Ukraine, Russie.
 -   **Actions soviétiques et nazies** : Déportation de populations polonaises, tchèques, lituaniennes, etc.
 
 [![source: elordenmundial](figures/15_principaux_camps_de_déportation.gif){fig-align="center"}](https://elordenmundial.com/wp-content/uploads/2018/08/holocausto-victimas-historia-mapa-negacionismo-rutas-deportaciones.gif)
 
-## Mouvements Massifs d'Européens
+## Mouvements massifs d'Européens
 
 -   **Évasion** : Des millions ont fui l'invasion allemande vers le sud et l'est.
 -   **Réfugiés** : Déplacés en Turquie, Moyen-Orient, Afrique du Nord.
 
 [![source: godincopernic.weebly.com](figures/19_conquête_allemande_seconde_guerre_mondiale.jpg){fig-align="center"}](http://godincopernic.weebly.com/uploads/1/0/1/5/101528968/552165327_orig.jpg)
 
-## La Guerre Civile Grecque (1946-1949)
+## La Guerre civile grecque (1946-1949) {.scrollable}
 
+-   **Causes**: Retraite des troupes allemandes Churchill fait débarquer une brigade pour lutter contre le communisme
+-   **Conséquence**: Loi martiale et bombadrdement
 -   **Déplacements de populations** : Milices nationalistes et communistes.
 -   **Réfugiés** : Migration vers les îles grecques, Turquie, Égypte.
 
 [![Arrestation de partisans communistes à Athènes en décembre 1944, source: pinterest.com](figures/20_guerre_civile_grecque.jpg){fig-align="center"}](https://ichef.bbci.co.uk/images/ic/1200x675/p01hyz6q.jpg)
 
-## Impact sur la Démographie Mondiale
+## Impact sur la Démographie mondiale {.scrollable}
 
--   **Europe Centrale et Orientale** : Changements majeurs dans le paysage démographique.
+-   **Europe centrale et orientale** : Changements majeurs dans le paysage démographique.
 -   **Amérique Latine** : Population espagnole a augmenté significativement.
 
 [![source: les-crises.fr](figures/21_mort_durant_la_seconde_guerre_mondiale.jpg){fig-align="center"}](https://www.les-crises.fr/wp-content/uploads/2014/06/morts-ww2.jpg)
 
 ## **Période après-guerre: introduction**
 
-## **Partition européenne**
+## **Partition européenne** {.scrollable}
 
-La division de l'Allemagne a forcé beaucoup de gens à quitter leurs maisons et à chercher refuge ailleurs. La création du bloc soviétique a également conduit au transfert de populations entre les nouveaux États baltes et les Balkans nouvellement dessinés.
+-   La division de l'Allemagne a forcé beaucoup de gens à quitter leurs maisons et à chercher refuge ailleurs.
+-   La création du bloc soviétique a également conduit au transfert de populations entre les nouveaux États baltes et les Balkans nouvellement dessinés.
 
 [![source: pinterest.com](figures/22_partition_après_seconde_guerre_mondiale.png){fig-align="center"}](https://i.pinimg.com/originals/10/c2/94/10c29472fd2cfd923e9605a680128c0b.png)
 
-## Système de protection des réfugiés (1950)
+## Système de protection des réfugiés (1950) {.scrollable}
 
-Afin de répondre aux catastrophes comme la guerre civile grecque, les autorités européennes ont mis en place un système international de protection des réfugiés, conduisant à l'établissement du statut juridique du réfugié par le Haut Commissariat des Nations Unies pour les réfugiés (HCR).
+Afin de répondre aux catastrophes comme la guerre civile grecque, les autorités européennes ont mis en place un système international de protection des réfugiés, conduisant à l'établissement du statut juridique du réfugié par le Haut Commissariat des Nations unies pour les réfugiés (HCR).
 
 [![source: demokratiegeschichten.de](figures/23_unhcr.png){fig-align="center"}](https://www.demokratiegeschichten.de/wp-content/uploads/2023/12/Migration-in-der-DG-3.png)
 
-## Plan Marshall
+## Début de la guerre froide: Plan Marshall {.scrollable}
 
--   Le programme économique américain a attiré beaucoup d'immigrants qualifiés pour aider à la reconstruction européenne, contribuant ainsi au développement économique post-guerre.
+-   **Block communiste (Est) contre Block capitaliste**: soutien économique pour **lutter contre le communisme**
 
--   Block communiste (Est) contre Block capitaliste
+-   Le programme économique américain a **attiré beaucoup d'immigrants qualifiés** pour aider à la reconstruction européenne, contribuant ainsi au développement économique post-guerre.
 
 [![source: lelivrescolaire.fr](figures/24_plan_marshall.png){fig-align="center"}](https://img.lelivrescolaire.fr/histoire-3e-2016/la-guerre-froide/sujet-brevet/3000.h.3.6.c3-2..png)
 
-## Reconstruction européenne
+## Reconstruction européenne {.scrollable}
 
-La ruine économique causée par la guerre a poussé l'Europe occidentale à recruter largement dans les pays méditerranéens et certaines anciennes colonies pour soutenir sa reconstruction.
+La **ruine économique** causée par la guerre a poussé l'Europe occidentale à **recruter** largement dans les **pays méditerranéens et certaines anciennes colonies** pour soutenir sa reconstruction.
 
-À partir des années 1950, les pays européens commencent à recruter activement du personnel étranger pour combler les manques de main-d'œuvre dans divers secteurs industriels. Cela a conduit à une forte immigration.
+**À partir des années 1950**, les pays européens commencent à **recruter activement du personnel étranger** pour combler les manques de main-d'œuvre dans divers secteurs industriels. Cela a conduit à une forte immigration.
 
--   Par exemple, beaucoup de Grecs d'Italiens et d'Espagnols ont migré vers d'autres pays d'Europe à la recherche de travail.
+-   Par exemple, beaucoup de personne originaire de Grèce, d'Italie et d'Espagne ont migré vers d'autres pays d'Europe à la recherche de travail.
 
-[![source: Une Europe en évolution - flux migratoires au 20ème siècle](figures/26_migration économique d'après-guerre.png){fig-align="center"}](https://www.researchgate.net/publication/328043104_Une_Europe_en_evolution_-_Les_flux_migratoires_au_20eme_siecle?enrichId=rgreq-820173da7c328b3272bd7adc9f771f08-XXX&enrichSource=Y292ZXJQYWdlOzMyODA0MzEwNDtBUzo2Nzc2MDM4MzY5Njg5NjNAMTUzODU2NDc1MjUzOA%3D%3D&el=1_x_3&_esc=publicationCoverPdf)
+[![source: Une Europe en évolution - flux migratoires au 20ème siècle](figures/26_migration%20économique%20d'après-guerre.png){fig-align="center"}](https://www.researchgate.net/publication/328043104_Une_Europe_en_evolution_-_Les_flux_migratoires_au_20eme_siecle?enrichId=rgreq-820173da7c328b3272bd7adc9f771f08-XXX&enrichSource=Y292ZXJQYWdlOzMyODA0MzEwNDtBUzo2Nzc2MDM4MzY5Njg5NjNAMTUzODU2NDc1MjUzOA%3D%3D&el=1_x_3&_esc=publicationCoverPdf)
 
 ## Accords bilatéraux
 
@@ -629,9 +655,9 @@ Accords bilatéraux entre certains pays pour faciliter l'immigration de travaill
 
 -   Accord Suisse-Maroc, Algérie, Tunisie (années 1970)
 
--   Les pays d'accueil accordent des permis de travail temporaires ("saisonniers").
+-   Les pays d'accueil accordent des permis de travail temporaire ("saisonniers").
 
-## **Miracle économique allemand (**Wirtschaftswunder)
+## **Miracle économique allemand (Wirtschaftswunder)** {.scrollable}
 
 Le miracle économique allemand a attiré des travailleurs étrangers, dont de nombreux Italiens, Espagnols et Turcs.
 
@@ -643,13 +669,20 @@ Raisons:
 
 [![source: abebooks.com](figures/25_wirtschaftwunder_miracle_économique_allemand.jpg){fig-align="center"}](https://pictures.abebooks.com/1047714/20824057420.jpg)
 
-## En chiffre
+## En chiffre {auto-animate="true"}
 
-L'Europe occidentale est devenue une véritable région d'immigration. Entre 1950 et 1973, près de 10 millions de personnes sont arrivées pour s'y installer.
+**L'Europe occidentale** est devenue une véritable **région d'immigration**. **Entre 1950 et 1973**, près de **10 millions** de personnes sont arrivées pour s'y installer.
 
-1.  Tout d'abord, l'Italie, l'Espagne, la Grèce, le Portugal et, après les années 1960, la Turquie et la Yougoslavie sont devenus des pays exportateurs de main-d'œuvre.
-2.  L’Allemagne, la Belgique, la France, la Suisse, les Pays-Bas et la Suède ont été les principaux pays
-    importateurs de main-d'œuvre.
+1.  Tout d'abord
+
+-   **l'Italie, l'Espagne, la Grèce, le Portugal**
+-   Après les années 1960, **la Turquie et la Yougoslavie** sont devenus des pays **exportateurs de main-d'œuvre**.
+
+2.  **L’Allemagne, la Belgique, la France, la Suisse, les Pays-Bas et la Suède** ont été les principaux pays **importateurs de main-d'œuvre**.
+
+## En chiffre {auto-animate="true"}
+
+Part d'étranger en pourcent dans le pays d'accueil 1954-1974
 
 ```{r}
 tibble(
@@ -669,30 +702,38 @@ tibble(
   e_bar(Allemagne) %>% 
   e_bar(`Pays-Bas`) %>% 
   e_bar(`Suède`) %>% 
-  e_tooltip() %>% 
-  e_title("Part d'étranger en pourcent dans le pays d'accueil 1954-1974")
-  
+  e_tooltip()
 ```
 
-### Crise Économique et Répercussions
+## Crise économique et répercussions
 
 La crise pétrolière (1973-1974) a entraîné une réduction des opportunités d'emploi.
 
 [![source: histoire.savoir.fr](figures/30_crise_pétrolière.jpg){fig-align="center"}](https://histoire.savoir.fr/un-monde-destabilise-1973-1985/)
 
-## **Yougoslavie**
+## **Migrations forcées**
+
+## **Crise en Yougoslavie (1990)** {.scrollable}
+
+**Tensions ethniques**: particulièrement entre les Serbes, les Croates et les Bosniaques
+
+**Effondrement de la Yougoslavie**: la mort de Josip Broz Tito
+
+**Nationalisme et déclaration d'indépendance**: Début des conflits avec la Serbie
 
 Des mouvements massifs de populations ont eu lieu dans les Balkans nouvellement dessinés en raison du transfert des différentes nationalités.
 
-## Décolonisation
+[![](figures/35_yougoslavie.png){fig-align="center"}](https://www.monde-diplomatique.fr/local/cache-vignettes/L890xH588/exyougo1GF-22eda-bf0b6.png?1512059035)
 
-Les anciennes puissances coloniales européennes, notamment la France, le Royaume-Uni, la Belgique et les Pays-Bas, ont commencé à libérer leurs colonies en Afrique et en Asie. Cela a conduit à des flux importants de réfugiés et d'immigrants.
+## Décolonisation {.scrollable}
+
+Les anciennes puissances coloniales européennes, notamment **la France, le Royaume-Uni, la Belgique et les Pays-Bas**, ont commencé à libérer leurs colonies en Afrique et en Asie. Cela a conduit à des flux importants de réfugiés et d'immigrants.
 
 À partir des années 1950, la décolonisation commence à s'accélérer dans l'Empire colonial français et britannique.
 
 [![source: alloprof.qc.ca](figures/27_décolonisation_carte.jpg){fig-align="center"}](https://cms.alloprof.qc.ca/sites/default/files/styles/1920w/public/2020-07/h1095i1.jpg?itok=5CGm6B6F)
 
-## Premier mouvement: rapatriement
+## Premiers mouvements: rapatriement {.scrollable}
 
 Retour des citoyens d'origine coloniale
 
@@ -714,12 +755,13 @@ read_csv("data/migration_colonies.csv") %>%
   arrange(Pays, -Compte) %>% 
   gt() %>% 
   gt_plt_bar(Compte) %>% 
-  tab_header("Les Européens rapatriés des colonies, 1945-1962")
+  tab_header("Les Européens rapatriés des colonies, 1945-1962") %>% 
+  tab_options(table.font.size = px(28))
 ```
 
-`*` la plupart sont retournés au Portugal, certains sont allé au Brésil ou en Afrique du Sud
+`*` la plupart sont retournés au Portugal, certains sont allés au Brésil ou en Afrique du Sud
 
-### Migration Ethnique
+## Migration ethnique {.scrollable}
 
 -   Définition: la migration ethnique est le déplacement des gens de leur pays d’origine vers un pays partageant une même souche ethnique et/ou religieuse.
 
@@ -734,40 +776,41 @@ read_csv("data/migration_ethnique.csv") %>%
   mutate(Compte = as.numeric(str_remove_all(Nombre, "\\s+"))) %>% 
   gt() %>% 
   gt_plt_bar(Compte) %>% 
-  tab_header("Migration ethnique entre 1950 et 1992-1993")
+  tab_header("Migration ethnique entre 1950 et 1992-1993") %>% 
+  tab_options(table.font.size = px(28))
 ```
 
-## Migration vers Israël {auto-animate="true"}
+## Migration vers Israël {.scrollable auto-animate="true"}
 
-3 Million de personne immigrent en Israël entre 1948 et 2008
+3 Millions de personnes immigrent en Israël entre 1948 et 2008
 
 [![les-crises.fr](figures/29_israel_europe.jpg){fig-align="center"}](https://www.les-crises.fr/images/3100-democratie/3500-ukraine/03-nazis/3-2-0-diaspora-juifs/88-israel-europe.jpg)
 
-## Migration vers Israël {auto-animate="true"}
+## Migration vers Israël {.scrollable auto-animate="true"}
 
 [![source: migrationpolicy.org](figures/28_Arrivées_en_Israël_entre_1948_et_2008.png){fig-align="center"}](https://www.migrationpolicy.org/article/israel-balancing-demographics-jewish-state)
 
-## Migration vers Israël {auto-animate="true"}
+## Migration vers Israël {.scrollable auto-animate="true"}
 
 [![source: migrationpolicy.org](figures/29_Immigration_vers_Israël_par_pays_de_1948_à_2008.png){fig-align="center"}](https://www.migrationpolicy.org/article/israel-balancing-demographics-jewish-state)
+
+## Migration forcée
 
 ## Migration issue des régimes communistes
 
 -   Flux de réfugiés hongrois (1956-1957).
 
-<!-- -->
-
 -   Réfugiés tchécoslovaques après le Printemps de Prague (1968).
 
 -   Répression politique en Pologne entre 1980 et 1981.
 
-## Crise des Réfugiés Hongrois (1956)
+## Crise des Réfugiés hongrois (1956) {.scrollable}
 
-Suite à la révolution hongroise en 1956, un grand nombre de Hongrois quittent le pays pour chercher refuge en Allemagne Occidentale, France et Canada.
+Suite à la révolution hongroise en 1956, un grand nombre de Hongrois quittent le pays pour chercher refuge en Allemagne occidentale, France et Canada.
 
 [![radiofrance.fr](figures/31_revolution_hongroise.jpg){fig-align="center"}](https://www.radiofrance.fr/s3/cruiser-production/2021/01/02b77698-c78c-4388-982d-0bd2d73334ee/1200x680_budapest1956.jpg)
 
-## Crise des Réfugiés Vietnamiens
+## Crise des Réfugiés vietnamiens
 
 À la fin des années 1970, suite à la chute du Sud-Vietnam en 1975, un flux important de réfugiés ("boat people") fuit le Vietnam et trouve refuge dans différents pays occidentaux.
 
@@ -779,30 +822,53 @@ Suite à la révolution hongroise en 1956, un grand nombre de Hongrois quittent 
 
 [![source:hg-emc.fr](figures/33_migrants-clandestins-2977208740.jpg){fig-align="center"}](http://www.hg-emc.fr/medias/images/migrants-clandestins.jpg)
 
-## Europe
+## Europe {.scrollable}
 
--   Union Européenne renforcée
+-   Union européenne renforcée
 
--   Libre circulation des personne: Espace schengen
+-   Libre circulation des personnes: Espace Schengen
 
-## Contextes Géopolitiques des Migrations
+[![](figures/37_routes_migratoires.jpg){fig-align="center"}](http://www.lepoint.fr/images/2015/09/07/2030212lpw-2034293-routes-migratoires-vers-l-europe-jpg_3043651.jpg)
+
+## Contextes géopolitiques des migrations
 
 -   Conflit syrien (depuis 2011).
 -   Guerres en Libye, Irak, Érythrée.
 -   Autres crises politiques dans la bande allant de la Mauritanie à l'Inde.
+-   Accroissement des Demandes d'Asile (particulièrement après 2010)
+    -   En 2015 : pic de demandeurs en Europe.
+    -   De 2010 à 2018 : augmentation significative des demandes
 
-## Pic des Demandes d’Asile
+## Création de Frontex et accords {.scrollable}
 
--   Accroissement des Demandes d'Asile (Particulièrement après 2010)
-    -   En 2015 : pic de 1,28 million de demandeurs en Europe.
-    -   De 2010 à 2018 : augmentation significative des demandes, passant de 235 000 à 608 000.
+Réponse politique
 
-## Création de Frontex et Accords
+-   Création de Frontex et Accord avec la Turquie
+-   Fondation de Frontex en 2004.
+-   Accord avec la Turquie pour servir de "zones tampons".
 
--   Réponse Politique - Création de Frontex et Accord avec la Turquie
-    -   Fondation de Frontex en 2004.
-    -   Accord avec la Turquie pour servir de "zones tampons".
+[![](figures/36_frontex.jpg){fig-align="center"}](https://elordenmundial.com/wp-content/uploads/2021/03/frontex-union-europea-fronteras-migracion.jpg)
 
-## Conséquences sociales, économiques et politiques des grandes vagues de migration
+## Différence
 
-## Conséquences et défis actuels de la migration
+-   Pays lointain
+
+-   Conflit lointain temporellement et géographiquement
+
+-   Renforcement du système européen
+
+    -   Migration économique: Européen (expat)
+
+    -   Migration d'asile: Pays du sud (migrant)
+
+-   Peur de l'inconnu et du poids
+
+## Conclusion
+
+1.  Il existe plusieurs types de migration
+2.  Les humains ont toujours été en mouvement
+3.  La migration crée des connexions et des dépendances
+4.  Analyser les principales périodes migratoires à travers les données chiffrées.
+5.  Examiner les causes et les effets des mouvements de population.
+
+# Merci pour votre attention
